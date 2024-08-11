@@ -1,23 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useState, useEffect } from 'react'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import UpperBar from "./components/UpperBar";
+import './index.css'
+import logo from './images/logo.jpg'
+import Navbar from "./components/Navbar";
+
 
 function App() {
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate a loading process (e.g., fetching data)
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000); // Replace this with your actual loading process
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {loading ? <LoadingScreen /> : <MainContent />}
+    </div>
+  );
+}
+
+function LoadingScreen() {
+  return (
+    <div className="loading-screen">
+      <img src={logo} alt="Loading..." className="loading-logo"/>
+    </div>
+  );
+}
+
+function MainContent() {
+  return (
+    <div>
+      <UpperBar />
+      <Navbar/>
+      <Router>
+        <Switch></Switch>
+      </Router>
     </div>
   );
 }

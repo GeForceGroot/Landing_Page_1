@@ -1,0 +1,44 @@
+.navbar-brand{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif; 
+}
+#imgLogo{
+    max-width: 170px;
+    max-height: 85px;
+}
+#myCont{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:300px) {
+    #imgLogo{
+        width: 150px;
+        height: 70px;
+    }
+}
+@media (max-width:990px) {
+    #myCont{
+        display: none;
+    }
+    #navLogo{
+        justify-content: center;
+    }
+}
+
+#btnHvn {
+    /* Default button styling */
+    padding: 5px 25px 5px 25px;
+    background-color: rgb(15 77 106); /* Initial background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Initial box-shadow */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    border: none; /* No border */
+    border-radius: 10px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  #btnHvn:hover {
+    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22); /* Hover effect for box-shadow */
+    background-color: rgb(34, 145, 196); /* Hover effect for background color */
+  }
+  

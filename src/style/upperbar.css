@@ -1,0 +1,9 @@
+@media (max-width: 1000px) {
+    #upBar{
+        display: none;
+    }
+ }
+ #upBarNav:hover{
+    transform: scale(1.15);
+ }
+ 
