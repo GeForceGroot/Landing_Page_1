@@ -6,7 +6,6 @@ import '../style/contact.css';
 import '../style/navbar.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS styles
-
 AOS.init();
 
 const Carousel = () => {
@@ -127,7 +126,7 @@ const Carousel = () => {
                   <label htmlFor="requirement" style={{ color: 'whitesmoke', display: 'flex', fontSize:'15px' }}>Tell Us About Your Requirement</label>
                   <textarea id="requirement" name="requirement" rows="4" placeholder="Describe your needs in detail"></textarea>
                 </div>
-                <button className="aos-init aos-animate" data-aos="fade-left" data-aos-duration="1400" id="btnSubmit"><span>Contact Us</span></button>
+                <button data-aos="fade-left" data-aos-duration="1200" id="btnSubmit"><span>Contact Us</span></button>
               </form>
             </div>
           </div>

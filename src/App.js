@@ -6,6 +6,7 @@ import logo from './images/logo.jpg'
 import Carousel from "./components/Carousel";
 import BusinessFamily from "./components/BusinessFamily";
 import Service from "./components/Service";
+import TeamMember from "./components/TeamMember";
 
 
 function App() {
@@ -40,6 +41,7 @@ function MainContent() {
       <Carousel/>
       <BusinessFamily/>
       <Service/>
+      <TeamMember/>
     </div>
   );
 }
