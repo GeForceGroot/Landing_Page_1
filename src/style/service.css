@@ -1,0 +1,79 @@
+.section-padding5{
+    padding: 50px 0px 50px;
+}
+
+.works5-sectino{
+    padding: 0 70px 0 0;
+    text-align: center;
+}
+
+span.consultingspan{
+    border-radius: 5px;
+    background: rgba(0, 125, 231, 0.10);
+    padding: 10px;
+    color: #015c91;
+}
+
+.margin-b20{
+    margin-bottom: 20px;
+}
+
+.worksicons5{
+    position: absolute;
+    height: 64px;
+    width: 64px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    background-color: #cbe0ed;
+}
+
+.workstext{
+    position: relative;
+    padding-left: 90px;
+    text-align: start;
+}
+
+.works-servicearea{
+    border-radius: 10px;
+    background: white;
+    padding: 28px 20px;
+    position: relative;
+    z-index: 2;
+    transition: all .4s ease-in-out;
+    margin: 10px;
+}
+
+.ts{
+    transition: all .4s ease-in-out;
+}
+.weight-600{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.works-servicearea:hover::after{
+    width: 100%;
+    transition: all .4s ease-in-out;
+    left: 0;
+    right: auto;
+}
+
+.works-servicearea::after{
+    border-radius: 2px;
+    background: #425b76;
+    position: absolute;
+    content: "";
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 0;
+    z-index: -1;
+    transition: all .4s ease-in-out;
+    color: white;
+}
+
+#setColor:hover{
+color: white;
+}

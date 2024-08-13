@@ -1,10 +1,11 @@
 import "./App.css";
 import { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import UpperBar from "./components/UpperBar";
 import './index.css'
 import logo from './images/logo.jpg'
-import Navbar from "./components/Navbar";
+import Carousel from "./components/Carousel";
+import BusinessFamily from "./components/BusinessFamily";
+import Service from "./components/Service";
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
     // Simulate a loading process (e.g., fetching data)
     setTimeout(() => {
       setLoading(false);
-    }, 2000); // Replace this with your actual loading process
+    }, 3200); // Replace this with your actual loading process
   }, []);
 
   return (
@@ -36,11 +37,9 @@ function LoadingScreen() {
 function MainContent() {
   return (
     <div>
-      <UpperBar />
-      <Navbar/>
-      <Router>
-        <Switch></Switch>
-      </Router>
+      <Carousel/>
+      <BusinessFamily/>
+      <Service/>
     </div>
   );
 }
