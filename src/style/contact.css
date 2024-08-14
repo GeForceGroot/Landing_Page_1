@@ -340,6 +340,8 @@ span.consultingspan{
   border-radius: 2px;
   padding: 10px;
   background: rgba(0, 125, 231, 0.10);
+  color: #015c91;
+  font-weight: 500;
 }
 
 .abou-5textarea5{

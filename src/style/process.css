@@ -1,0 +1,37 @@
+span.trusts{
+    border-radius: 5px;
+    background: rgba(0, 125, 231, 0.10);
+    padding: 10px 16px;
+    color: #015c91;
+    font-weight: 500;
+}
+
+.color-nuni{
+    color: #606060;
+}
+
+.lineh-26{
+    line-height: 26px;
+}
+.margin-b30{
+    margin-bottom: 30px;
+}
+
+.accordian4 .accordion-item:first-of-type .accordion-button{
+    border: none;
+    box-shadow: none;
+}
+
+
+.accordion-item:first-of-type .accordion-button{
+    border-top-left-radius: var(--bs-accordion-inner-border-radius);
+    border-top-right-radius: var(--bs-accordion-inner-border-radius);
+}
+
+.accordion-button:not(.collapsed){
+    border-radius: 2px;
+    background: var(--main-color, #6083A9);
+    color: white;
+    font-weight: 600;
+}
+

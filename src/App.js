@@ -7,6 +7,11 @@ import Carousel from "./components/Carousel";
 import BusinessFamily from "./components/BusinessFamily";
 import Service from "./components/Service";
 import TeamMember from "./components/TeamMember";
+import Value from "./components/Value";
+import MainServices from "./components/MainServices";
+import Impact from "./components/Impact";
+import Expertise from "./components/Expertise";
+import Process from "./components/Process";
 
 
 function App() {
@@ -17,7 +22,7 @@ function App() {
     // Simulate a loading process (e.g., fetching data)
     setTimeout(() => {
       setLoading(false);
-    }, 3200); // Replace this with your actual loading process
+    }, 1500); // Replace this with your actual loading process
   }, []);
 
   return (
@@ -42,6 +47,11 @@ function MainContent() {
       <BusinessFamily/>
       <Service/>
       <TeamMember/>
+      <Value/>
+      <MainServices/>
+      <Impact/>
+      <Expertise/>
+      <Process/>
     </div>
   );
 }

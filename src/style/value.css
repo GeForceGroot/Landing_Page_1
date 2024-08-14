@@ -1,0 +1,119 @@
+.servicebenefites11-section-area{
+    background: rgb(238, 247, 255);
+    position: relative;
+}
+
+span.aropaln2{
+    border-radius: 5px;
+    background: rgba(0, 125, 231, 0.10);
+    padding: 10px 16px;
+    color: #015c91;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+#btnKnow {
+    /* Default button styling */
+    padding: 7px 25px;
+    background-color: #b9def4; /* Initial background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Initial box-shadow */
+    border: none; /* No border */
+    border-radius: 10px; /* Rounded corners */
+    color: #015c91; /* Initial text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    position: relative; /* Positioning context for pseudo-elements */
+    overflow: hidden; /* Hide overflow of pseudo-elements */
+    font-size: 15px; /* Font size */
+    font-weight: 500; /* Font weight */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease; /* Smooth transition */
+  }
+  
+  #btnKnow::before,
+  #btnKnow::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    transition: transform 0.3s ease;
+    z-index: 0; /* Ensure pseudo-elements are behind text */
+  }
+  
+  #btnKnow::before {
+    left: 0;
+    background-color: #425b76; /* Background color for sliding effect */
+    transform: translateX(-100%);
+  }
+  
+  #btnKnow::after {
+    right: 0;
+    background-color: #425b76; /* Background color for sliding effect */
+    transform: translateX(100%);
+  }
+  
+  #btnKnow:hover::before,
+  #btnKnow:hover::after {
+    transform: translateX(0); /* Slide effect on hover */
+  }
+  
+  #btnKnow:hover {
+    background-color: #425b76; /* Change background color on hover */
+    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22); /* Hover effect for box-shadow */
+    color: white; /* Change text color to white on hover */
+  }
+  
+  #btnKnow span {
+    position: relative; /* Relative position for stacking context */
+    z-index: 1; /* Ensure text stays above pseudo-elements */
+    transition: color 0.3s ease; /* Smooth transition for text color */
+  }
+  
+  /* Ensure the button text remains visible and centered */
+  #btnKnow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .immigrationarea{
+    margin-bottom: 16px;
+    width: 100%;
+  }
+
+  .ts{
+    transition: all .4s ease-in-out;
+  }
+
+  .immigrationarea{
+    background: #a9dfff87;
+    padding: 16px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+    transition: all .4s ease-in-out;
+  }
+
+  #changeColor{
+    color: #015c91;
+  }
+
+  .col-lg-6 .giveMarg, 
+  .col-lg-6 .ts {
+      transition: color 0.3s ease-in-out;
+  }
+  
+  .col-lg-6:hover .giveMarg,
+  .col-lg-6:hover .ts {
+      color: white;
+  }
+  
+
+  .giveMarg{
+    margin-left: 15px;
+  }
+  .immigrationarea:hover{
+    background: #425b76;
+    transition: all .4s ease-in-out;
+    transform: translateY(-5px);
+    color: white;
+  }
