@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       {loading ? <LoadingScreen /> : <MainContent />}
-      <ProgressBar /> {/* Add this line */}
+      <ProgressBar /> 
     </div>
   );
 }
