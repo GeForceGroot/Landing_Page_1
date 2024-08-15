@@ -16,7 +16,9 @@ const Footer = () => {
                             <div class="footer-logo-text">
                                 <img src={img} alt="Logo" class="footer-logo" />
                                 <p class="footer-description">
-                                    Reduce seasonal tax headaches with our experienced professionals under reputed CAs who have in-depth knowledge of tax regulations and strategies for optimal solutions.
+                                    No matter what your business size or industry is, our one-stop solutions are designed to adapt to any situation. Once satisfied then we proceed with the final delivery process.
+                                    <br />
+                                    Schedule a meeting to discuss your technical issues and we will help you with our uniquely crafted solutions just for you. Mail us now.
                                 </p>
                             </div>
                         </div>

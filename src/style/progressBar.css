@@ -1,0 +1,62 @@
+/* src/components/ProgressBar.css */
+.progress-bar-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;  /* Reduced size */
+  height: 80px; /* Reduced size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.progress-bar-container.visible {
+  opacity: 1;
+}
+
+.progress-bar-container.hidden {
+  opacity: 0;
+}
+
+.progress-bar-circle {
+  position: relative;
+  width: 80px;  /* Reduced size */
+  height: 80px; /* Reduced size */
+  transform: rotate(-90deg);
+}
+
+.progress-bar-svg {
+  width: 80px;  /* Reduced size */
+  height: 80px; /* Reduced size */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress-bar-svg circle {
+  fill: none;
+  stroke-width: 8; /* Reduced stroke width */
+  stroke: #425b76;
+  stroke-dasharray: 220; /* Adjusted to match the smaller circle */
+  stroke-dashoffset: 220;
+  transition: stroke-dashoffset 0.35s;
+}
+
+.progress-bar-svg circle:last-child {
+  stroke: #425b76;
+}
+
+.progress-bar-arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent; /* Reduced size */
+  border-right: 8px solid transparent; /* Reduced size */
+  border-bottom: 16px solid #425b76;      /* Reduced size */
+  transform: translate(-50%, -50%) rotate(45deg);
+}

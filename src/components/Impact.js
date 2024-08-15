@@ -23,15 +23,15 @@ const Impact = () => {
           </div>
           <div className="col-lg-6" data-aos="fade-left" data-aos-duration="1200" style={{ textAlign: 'start' }}>
             <div className="about3-textarea1">
-              <span className="about3span font-ks lineh-16 font-16 weight-600 color-29 d-inline-block margin-b24">About Us</span>
+              <span className="about3span font-ks lineh-16 font-16 weight-600 color-29 d-inline-block margin-b24">Discover Your New Insights</span>
               <h1
                 className="font-lora font-48 lineh-56 weight-600 color-29 margin-b20"
                 style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)' }}
               >
-                Mission &amp; Values Of Your Law Consult Firm
+                Beyond Trends Towards Setting New Standards
               </h1>
               <p className="font-ks font-16 lineh-26 weight-500 color-30 " style={{ fontFamily: 'inherit' }}>
-                Provide professional advice and guidance on legal matters, helping clients understand their rights, obligations, and potential courses.
+                <strong>Consultancy Services: </strong>Don't want to outsource the whole process? No worries get the best strategies and recommendations based on AI-based market analysis to have the best actions before rivals
               </p>
               <div className="counter3-area3" ref={ref}>
                 <div className="row">
@@ -39,9 +39,10 @@ const Impact = () => {
                     <div className="counter3-boxarea4 text-center margin-b20 margin-t32">
                       <div className="counter4-boxarea4">
                         <h1 className="font-lora font-40 lineh-40 color-29 margin-b weight-600">
-                          {inView && <CountUp start={0} end={959} duration={2} />}+
+                          {inView && <CountUp start={0} end={50} duration={1} />}+
                         </h1>
-                        <p className="font-ks font-16 lineh-16 weight-500 color-30">Case Settlement</p>
+                        <p className="font-ks font-16 lineh-16 weight-500 color-30">Reporting</p>
+                        {/* <p style={{color:'black', textAlign:"center"}}>reports annually along with basic day-to-day service reports. Get graphic-based specific information for easy decision-making and analyse reports for accuracy. </p> */}
                       </div>
                     </div>
                   </div>
@@ -49,9 +50,9 @@ const Impact = () => {
                     <div className="counter3-boxarea4 text-center margin-b20 margin-t32">
                       <div className="counter4-boxarea4">
                         <h1 className="font-lora font-40 lineh-40 color-29 margin-b weight-600">
-                          {inView && <CountUp start={0} end={250} duration={2} />}+
+                          {inView && <CountUp start={0} end={14} duration={1} />}+
                         </h1>
-                        <p className="font-ks font-16 lineh-16 weight-500 color-30">Insurance Settlement</p>
+                        <p className="font-ks font-16 lineh-16 weight-500 color-30">Years of Experience</p>
                       </div>
                     </div>
                   </div>
@@ -59,9 +60,9 @@ const Impact = () => {
                     <div className="counter3-boxarea4 text-center">
                       <div className="counter4-boxarea4">
                         <h1 className="font-lora font-40 lineh-40 color-29 margin-b weight-600">
-                          {inView && <CountUp start={0} end={388} duration={2} />}+
+                          {inView && <CountUp start={0} end={1427} duration={2} />}+
                         </h1>
-                        <p className="font-ks font-16 lineh-16 weight-500 color-30">Personal Injury</p>
+                        <p className="font-ks font-16 lineh-16 weight-500 color-30">HST Remitted</p>
                       </div>
                     </div>
                   </div>
@@ -69,9 +70,9 @@ const Impact = () => {
                     <div className="counter3-boxarea4 text-center">
                       <div className="counter4-boxarea4">
                         <h1 className="font-lora font-40 lineh-40 color-29 margin-b weight-600">
-                          {inView && <CountUp start={0} end={400} duration={2} />}+
+                          {inView && <CountUp start={0} end={800} duration={2} />}+
                         </h1>
-                        <p className="font-ks font-16 lineh-16 weight-500 color-30">Divorce Case</p>
+                        <p className="font-ks font-16 lineh-16 weight-500 color-30">Clients on are Recrurring Basis</p>
                       </div>
                     </div>
                   </div>
