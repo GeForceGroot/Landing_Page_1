@@ -17,7 +17,7 @@ const Impact = () => {
         <div className="row align-items-center">
           <div className="col-lg-6" data-aos="fade-right" data-aos-duration="1200">
             <div className="about3-images1">
-              <img src={img1} alt="" data-aos="zoom-out" data-aos-duration="1200" />
+              <img src={img1} alt="" data-aos="zoom-out" data-aos-duration="1200" width={'100%'}  height={'100%'}/>
               <img src={img2} alt="" className="elementor-9 keyframe3" />
             </div>
           </div>
