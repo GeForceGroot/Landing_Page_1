@@ -379,6 +379,7 @@ span.consultingspan{
   transition: all .4s ease-in-out;
 }
 
+
 .author0mages::after{
   position: absolute;
   content: "";
