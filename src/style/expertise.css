@@ -93,3 +93,8 @@ span.about8{
     background: rgba(255, 255, 255, 0.20);
     transition: all .4s ease-in-out;
 }
+#setExp:hover .servicebrne8area a{
+    color: white;
+}#setExp:hover .servicebrne8area p{
+    color: white;
+}

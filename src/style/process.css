@@ -10,12 +10,6 @@ span.trusts{
     color: #606060;
 }
 
-.lineh-26{
-    line-height: 26px;
-}
-.margin-b30{
-    margin-bottom: 30px;
-}
 
 .accordian4 .accordion-item:first-of-type .accordion-button{
     border: none;
@@ -34,4 +28,6 @@ span.trusts{
     color: white;
     font-weight: 600;
 }
+
+
 

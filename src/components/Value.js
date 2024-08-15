@@ -19,64 +19,64 @@ const Value = () => {
                         <div class="col-lg-7">
                             <div class="immigritation-listarea">
                                 <div class="row">
-                                    <div class="col-lg-6 aos-init" data-aos="zoom-in" data-aos-duration="800">
+                                    <div class="col-lg-6 aos-init" id='setValue' data-aos="zoom-in" data-aos-duration="800">
                                         <div class="immigrationarea">
                                             <a href="servicemiddle.html" class="font-16 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span class="ts"><div class="author0mages"> <img src={cehck} alt="" class="ts" /></div></span><span className='giveMarg'>Time and Cost Savings</span></a>
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-6 aos-init" data-aos="zoom-in" data-aos-duration="1000">
-                                        <div class="immigrationarea">
-                                            <a href="servicemiddle.html" class="font-16 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span class="ts"><div class="author0mages"> <img src={cehck} alt="" class="ts" /></div></span><span className='giveMarg'>Time and Cost Savings</span></a>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="col-lg-6 aos-init" data-aos="zoom-in" data-aos-duration="1200">
+                                    <div class="col-lg-6 aos-init" id='setValue' data-aos="zoom-in" data-aos-duration="1000">
                                         <div class="immigrationarea">
                                             <a href="servicemiddle.html" class="font-16 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span class="ts"><div class="author0mages"> <img src={cehck} alt="" class="ts" /></div></span><span className='giveMarg'>Time and Cost Savings</span></a>
                                         </div>
                                     </div>
 
 
-                                    <div class="col-lg-6 aos-init" data-aos="zoom-in" data-aos-duration="1400">
+                                    <div class="col-lg-6 aos-init" id='setValue' data-aos="zoom-in" data-aos-duration="1200">
                                         <div class="immigrationarea">
                                             <a href="servicemiddle.html" class="font-16 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span class="ts"><div class="author0mages"> <img src={cehck} alt="" class="ts" /></div></span><span className='giveMarg'>Time and Cost Savings</span></a>
                                         </div>
                                     </div>
 
 
-                                    <div class="col-lg-6 aos-init" data-aos="zoom-out" data-aos-duration="800">
+                                    <div class="col-lg-6 aos-init" id='setValue' data-aos="zoom-in" data-aos-duration="1400">
                                         <div class="immigrationarea">
                                             <a href="servicemiddle.html" class="font-16 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span class="ts"><div class="author0mages"> <img src={cehck} alt="" class="ts" /></div></span><span className='giveMarg'>Time and Cost Savings</span></a>
                                         </div>
                                     </div>
 
 
-                                    <div class="col-lg-6 aos-init" data-aos="zoom-out" data-aos-duration="1000">
+                                    <div class="col-lg-6 aos-init" id='setValue' data-aos="zoom-out" data-aos-duration="800">
                                         <div class="immigrationarea">
                                             <a href="servicemiddle.html" class="font-16 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span class="ts"><div class="author0mages"> <img src={cehck} alt="" class="ts" /></div></span><span className='giveMarg'>Time and Cost Savings</span></a>
                                         </div>
                                     </div>
 
 
-                                    <div class="col-lg-6 aos-init" data-aos="zoom-out" data-aos-duration="1200">
+                                    <div class="col-lg-6 aos-init" id='setValue' data-aos="zoom-out" data-aos-duration="1000">
                                         <div class="immigrationarea">
                                             <a href="servicemiddle.html" class="font-16 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span class="ts"><div class="author0mages"> <img src={cehck} alt="" class="ts" /></div></span><span className='giveMarg'>Time and Cost Savings</span></a>
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-6 aos-init" data-aos="zoom-out" data-aos-duration="1400">
+
+                                    <div class="col-lg-6 aos-init" id='setValue' data-aos="zoom-out" data-aos-duration="1200">
                                         <div class="immigrationarea">
                                             <a href="servicemiddle.html" class="font-16 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span class="ts"><div class="author0mages"> <img src={cehck} alt="" class="ts" /></div></span><span className='giveMarg'>Time and Cost Savings</span></a>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 aos-init" data-aos="zoom-out" data-aos-duration="1400">
+
+                                    <div class="col-lg-6 aos-init" id='setValue' data-aos="zoom-out" data-aos-duration="1400">
                                         <div class="immigrationarea">
                                             <a href="servicemiddle.html" class="font-16 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span class="ts"><div class="author0mages"> <img src={cehck} alt="" class="ts" /></div></span><span className='giveMarg'>Time and Cost Savings</span></a>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 aos-init" data-aos="zoom-out" data-aos-duration="1400">
+                                    <div class="col-lg-6 aos-init" id='setValue' data-aos="zoom-out" data-aos-duration="1400">
+                                        <div class="immigrationarea">
+                                            <a href="servicemiddle.html" class="font-16 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span class="ts"><div class="author0mages"> <img src={cehck} alt="" class="ts" /></div></span><span className='giveMarg'>Time and Cost Savings</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 aos-init" id='setValue' data-aos="zoom-out" data-aos-duration="1400">
                                         <div class="immigrationarea">
                                             <a href="servicemiddle.html" class="font-16 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span class="ts"><div class="author0mages"> <img src={cehck} alt="" class="ts" /></div></span><span className='giveMarg'>Time and Cost Savings</span></a>
                                         </div>

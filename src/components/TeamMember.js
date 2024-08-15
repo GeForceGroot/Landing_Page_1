@@ -13,7 +13,7 @@ const TeamMember = () => {
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="team-detailsimg">
-                                <img data-aos="zoom-in" data-aos-duration="1200" src={img} style={{borderRadius:'250px 250px 0 0', boxShadow: '0 15px 25px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2)'}} width={'450px'} height={'450px'} alt=""/>
+                                <img data-aos="zoom-in" data-aos-duration="1200" src={img} style={{borderRadius:'15px', boxShadow: '0 15px 25px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2)'}} width={'400px'} height={'400px'} alt=""/>
                             </div>
                         </div>
                         <div class="col-lg-6" style={{textAlign:'start', paddingTop:'50px'}}>

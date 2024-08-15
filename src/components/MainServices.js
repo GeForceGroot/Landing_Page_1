@@ -24,7 +24,7 @@ const MainServices = () => {
                                         <img src={logo} alt="" class="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '20px', fontWeight: '600' }}>Insure Visionary</a>
+                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Insure Visionary</a>
                                 <ul class="listStyle">
                                     <li>Have extra hands for payment processing, maintaining vendor master data</li>
                                     <li>Process journal entries, bank reconciliations</li>
@@ -40,7 +40,7 @@ const MainServices = () => {
                                         <img src={logo} alt="" class="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '20px', fontWeight: '600' }}>Insure Visionary</a>
+                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" >Insure Visionary</a>
                                 <ul class="listStyle">
                                     <li>Have extra hands for payment processing, maintaining vendor master data</li>
                                     <li>Process journal entries, bank reconciliations</li>
@@ -56,7 +56,7 @@ const MainServices = () => {
                                         <img src={logo} alt="" class="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '20px', fontWeight: '600' }}>Insure Visionary</a>
+                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Insure Visionary</a>
                                 <ul class="listStyle">
                                     <li>Have extra hands for payment processing, maintaining vendor master data</li>
                                     <li>Process journal entries, bank reconciliations</li>
@@ -72,7 +72,7 @@ const MainServices = () => {
                                         <img src={logo} alt="" class="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '20px', fontWeight: '600' }}>Insure Visionary</a>
+                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" >Insure Visionary</a>
                                 <ul class="listStyle">
                                     <li>Have extra hands for payment processing, maintaining vendor master data</li>
                                     <li>Process journal entries, bank reconciliations</li>
@@ -88,7 +88,7 @@ const MainServices = () => {
                                         <img src={logo} alt="" class="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '20px', fontWeight: '600' }}>Insure Visionary</a>
+                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Insure Visionary</a>
                                 <ul class="listStyle">
                                     <li>Have extra hands for payment processing, maintaining vendor master data</li>
                                     <li>Process journal entries, bank reconciliations</li>
@@ -104,7 +104,7 @@ const MainServices = () => {
                                         <img src={logo} alt="" class="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '20px', fontWeight: '600' }}>Insure Visionary</a>
+                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Insure Visionary</a>
                                 <ul class="listStyle">
                                     <li>Have extra hands for payment processing, maintaining vendor master data</li>
                                     <li>Process journal entries, bank reconciliations</li>
@@ -120,7 +120,7 @@ const MainServices = () => {
                                         <img src={logo} alt="" class="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '20px', fontWeight: '600' }}>Insure Visionary</a>
+                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Insure Visionary</a>
                                 <ul class="listStyle">
                                     <li>Have extra hands for payment processing, maintaining vendor master data</li>
                                     <li>Process journal entries, bank reconciliations</li>
@@ -136,7 +136,7 @@ const MainServices = () => {
                                         <img src={logo} alt="" class="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '20px', fontWeight: '600' }}>Insure Visionary</a>
+                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Insure Visionary</a>
                                 <ul class="listStyle">
                                     <li>Have extra hands for payment processing, maintaining vendor master data</li>
                                     <li>Process journal entries, bank reconciliations</li>
@@ -152,7 +152,7 @@ const MainServices = () => {
                                         <img src={logo} alt="" class="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '20px', fontWeight: '600' }}>Insure Visionary</a>
+                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Insure Visionary</a>
                                 <ul class="listStyle">
                                     <li>Have extra hands for payment processing, maintaining vendor master data</li>
                                     <li>Process journal entries, bank reconciliations</li>

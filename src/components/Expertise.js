@@ -17,7 +17,7 @@ const Expertise = () => {
                     </div>
 
                     <div class="row" style={{textAlign:'start'}}>
-                        <div class="col-lg-6 aos-init" data-aos="zoom-out" data-aos-duration="1000">
+                        <div class="col-lg-6 aos-init" id='setExp' data-aos="zoom-out" data-aos-duration="1000">
                             <div class="servicebrne8area margin-b30">
                                 <div class="servicebene-icons ts">
                                     <img src={img} alt="" class="ts"/>
@@ -27,7 +27,7 @@ const Expertise = () => {
                             </div>
                         </div>
 
-                        <div class="col-lg-6 aos-init" data-aos="zoom-out" data-aos-duration="1200">
+                        <div class="col-lg-6 aos-init" id='setExp' data-aos="zoom-out" data-aos-duration="1200">
                             <div class="servicebrne8area margin-b30">
                                 <div class="servicebene-icons ts">
                                     <img src={img} alt="" class="ts"/>
@@ -38,7 +38,7 @@ const Expertise = () => {
                         </div>
 
 
-                        <div class="col-lg-6 aos-init" data-aos="zoom-out" data-aos-duration="1400">
+                        <div class="col-lg-6 aos-init" id='setExp' data-aos="zoom-out" data-aos-duration="1400">
                             <div class="servicebrne8area margin-b30">
                                 <div class="servicebene-icons ts">
                                     <img src={img} alt="" class="ts"/>
@@ -49,7 +49,7 @@ const Expertise = () => {
                         </div>
 
 
-                        <div class="col-lg-6 aos-init" data-aos="zoom-out" data-aos-duration="1600">
+                        <div class="col-lg-6 aos-init" id='setExp' data-aos="zoom-out" data-aos-duration="1600">
                             <div class="servicebrne8area margin-b30">
                                 <div class="servicebene-icons ts">
                                     <img src={img} alt="" class="ts"/>

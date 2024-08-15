@@ -73,24 +73,34 @@ span.about10span{
     width: 100%;
     transition: all .4s ease-in-out;
     border-radius: 4px;
-    color: white;
 }
 
 .listStyle:hover::after{
     list-style: circle;
     text-align: initial;
     margin-bottom: 10px;
-    color: white;
+    /* color: white; */
 }
 
 .service10-boxarea:hover .elips-icon6{
-    background: #fff;
+    background: rgb(48, 77, 102);
     transition: all .4s ease-in-out;
 }
 
-.service10-boxarea:hover a{
+.service10-boxarea:hover .font-lora{
     color: #fff;
     transition: all .4s ease-in-out;
+}
+.service10-boxarea:hover .listStyle{
+    color: #fff;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+}
+.service10-boxarea .font-lora{
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+    color: rgba(32, 64, 99, 0.8);
+    font-size: 20px; 
+    font-weight: 600
 }
 
 .service10-boxarea:hover p{

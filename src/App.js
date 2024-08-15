@@ -12,6 +12,7 @@ import MainServices from "./components/MainServices";
 import Impact from "./components/Impact";
 import Expertise from "./components/Expertise";
 import Process from "./components/Process";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -52,6 +53,7 @@ function MainContent() {
       <Impact/>
       <Expertise/>
       <Process/>
+      <Footer/>
     </div>
   );
 }

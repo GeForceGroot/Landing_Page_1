@@ -23,7 +23,7 @@ span.consultingspan{
     position: absolute;
     height: 64px;
     width: 64px;
-    background: #fff;
+    /* background: #fff; */
     border-radius: 50%;
     text-align: center;
     line-height: 60px;
@@ -38,7 +38,7 @@ span.consultingspan{
 
 .works-servicearea{
     border-radius: 10px;
-    background: white;
+    /* background: white; */
     padding: 28px 20px;
     position: relative;
     z-index: 2;
@@ -72,9 +72,16 @@ span.consultingspan{
     width: 0;
     z-index: -1;
     transition: all .4s ease-in-out;
-    color: white;
 }
 
 #setColor:hover{
 color: white;
+}
+
+#setColor .workstext a{
+    color: #015c91;
+}
+
+#setColor:hover .workstext a{
+    color: white;
 }

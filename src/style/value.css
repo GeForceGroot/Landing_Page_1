@@ -59,7 +59,7 @@ span.aropaln2{
   #btnKnow:hover {
     background-color: #425b76; /* Change background color on hover */
     box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22); /* Hover effect for box-shadow */
-    color: white; /* Change text color to white on hover */
+    color: white;
   }
   
   #btnKnow span {
@@ -97,15 +97,7 @@ span.aropaln2{
     color: #015c91;
   }
 
-  .col-lg-6 .giveMarg, 
-  .col-lg-6 .ts {
-      transition: color 0.3s ease-in-out;
-  }
   
-  .col-lg-6:hover .giveMarg,
-  .col-lg-6:hover .ts {
-      color: white;
-  }
   
 
   .giveMarg{
@@ -115,5 +107,9 @@ span.aropaln2{
     background: #425b76;
     transition: all .4s ease-in-out;
     transform: translateY(-5px);
+  }
+
+  #setValue:hover .immigrationarea a{
     color: white;
+    transition: all .4s ease-in-out;
   }
