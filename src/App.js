@@ -1,6 +1,5 @@
 // src/App.js
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
 import './index.css';
 import logo from './images/logo.jpg';
@@ -28,7 +27,7 @@ function App() {
   return (
     <div className="App">
       {loading ? <LoadingScreen /> : <MainContent />}
-      <ProgressBar /> 
+      <ProgressBar />
     </div>
   );
 }
@@ -44,16 +43,24 @@ function LoadingScreen() {
 function MainContent() {
   return (
     <div>
-      <Carousel />
-      <BusinessFamily />
-      <Service />
-      <TeamMember />
-      <Value />
-      <MainServices />
-      <Impact />
-      <Expertise />
-      <Process />
-      <Footer />
+      <div>
+        <section id="home">
+          <Carousel />
+        </section>
+        <BusinessFamily />
+          <Service />
+        <section id="about-us">
+          <TeamMember />
+        </section>
+        <Value />
+        <section id="services">
+        <MainServices />
+        </section>
+        <Impact />
+        <Expertise />
+        <Process />
+        <Footer />
+      </div>
     </div>
   );
 }

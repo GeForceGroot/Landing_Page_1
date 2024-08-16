@@ -26,6 +26,7 @@ span.aropaln2{
     font-size: 15px; /* Font size */
     font-weight: 500; /* Font weight */
     transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease; /* Smooth transition */
+    text-decoration: none;
   }
   
   #btnKnow::before,

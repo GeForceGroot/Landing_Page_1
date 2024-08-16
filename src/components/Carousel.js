@@ -1,10 +1,9 @@
-/* eslint-disable react/jsx-no-target-blank */
 import React, { useRef, useEffect, useState } from "react";
+import { Link } from 'react-scroll';
 import emailjs from '@emailjs/browser';
 import logo from '../images/logo.jpg';
 import '../style/contact.css';
 import '../style/navbar.css';
-
 
 const Carousel = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -72,22 +71,22 @@ const Carousel = () => {
               <div className="col-md-8">
                 <ul className="nav justify-content-center">
                   <li className="nav-item" data-aos="fade-down" data-aos-duration="1000">
-                    <a className="nav-link" href="/" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px' }}>Home</a>
+                    <Link to="home" smooth={true} duration={1000} className="nav-link" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px' }}>Home</Link>
                   </li>
                   <li className="nav-item" data-aos="fade-down" data-aos-duration="1000">
-                    <a className="nav-link" href="https://www.ascentwealth.in/#feature-22" target="_blank" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px' }}>
+                    <Link to="about-us" smooth={true} duration={1000} className="nav-link" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px' }}>
                       About&nbsp;Us
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item" data-aos="fade-down" data-aos-duration="1000">
-                    <a className="nav-link" href="https://www.ascentwealth.in/#title-7" target="_blank" style={{ color: scrolled ? '#015c91 ' : 'white', fontWeight: '500', fontSize: '16px' }}>
+                    <Link to="services" smooth={true} duration={1000} className="nav-link" style={{ color: scrolled ? '#015c91 ' : 'white', fontWeight: '500', fontSize: '16px' }}>
                       Services
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
               <div className="col-md-2 text-end" data-aos="fade-left" data-aos-duration="1000">
-                <button id="btnHvn"><span>Login</span></button>
+                {/* <button id="btnHvn"><span>Login</span></button> */}
               </div>
             </div>
           </div>

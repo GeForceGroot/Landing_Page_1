@@ -38,7 +38,7 @@ span.consultingspan{
 
 .works-servicearea{
     border-radius: 10px;
-    /* background: white; */
+    background: white;
     padding: 28px 20px;
     position: relative;
     z-index: 2;

@@ -1,31 +1,41 @@
 import React from 'react'
 import '../style/mainservices.css'
-import logo from '../images/law2.png'
+import logo from '../images/b.png'
+import img1 from '../images/4720378.png'
+import img2 from '../images/1.png'
+import img3 from '../images/s.png'
+import img4 from '../images/r.png'
+import img5 from '../images/d.png'
+import img6 from '../images/e.png'
+import img7 from '../images/g.png'
+import img8 from '../images/a.png'
+import img9 from '../images/st.png'
+import img10 from '../images/cs.svg'
 
 const MainServices = () => {
     return (
         <>
-            <div class="service10-section-area section-padding8">
-                <div class="container" style={{ marginTop: '50px' }}>
-                    <div class="row">
-                        <div class="col-lg-6 m-auto">
-                            <div class="service10-header text-center margin-b60">
-                                <span class="font-16 lineh-16 weight-600 color-h10 about10span d-inline-block margin-b20">Quickly Provided Comprehensive Services</span>
-                                <h1 class="font-44 lineh-54 weight-600 colorhp3 font-lora margin-b24s" style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)' }}>Tailored Services At Your Every Success Step</h1>
+            <div className="service10-section-area section-padding8">
+                <div className="container" style={{ marginTop: '50px' }}>
+                    <div className="row">
+                        <div className="col-lg-6 m-auto">
+                            <div className="service10-header text-center margin-b60">
+                                <span className="font-16 lineh-16 weight-600 color-h10 about10span d-inline-block margin-b20">Quickly Provided Comprehensive Services</span>
+                                <h1 className="font-44 lineh-54 weight-600 colorhp3 font-lora margin-b24s" style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)' }}>Tailored Services At Your Every Success Step</h1>
                             </div>
                         </div>
                     </div>
-                    <div class="row" style={{ marginTop: '50px' }}>
-                        <div class="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
-                            <div class="service10-boxarea text-center">
-                                <div class="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" class="keyframe3 ts" />
-                                    <div class="elips-icon6 ts">
-                                        <img src={logo} alt="" class="ts" />
+                    <div className="row" style={{ marginTop: '50px' }}>
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
+                            <div className="service10-boxarea text-center">
+                                <div className="welcome-ellipsbox ts">
+                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    <div className="elips-icon6 ts">
+                                        <img src={logo} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Bookkeeping</a>
-                                <ul class="listStyle">
+                                <a href="servicemiddle.html" className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Bookkeeping</a>
+                                <ul className="listStyle">
                                     <li>Detailed recordings</li>
                                     <li>Records all information</li>
                                     <li>Automated data recording from multiple sources</li>
@@ -33,33 +43,33 @@ const MainServices = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
-                            <div class="service10-boxarea text-center">
-                                <div class="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" class="keyframe3 ts" />
-                                    <div class="elips-icon6 ts">
-                                        <img src={logo} alt="" class="ts" />
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                            <div className="service10-boxarea text-center">
+                                <div className="welcome-ellipsbox ts">
+                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    <div className="elips-icon6 ts">
+                                        <img src={img1} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" >Digital Financial Strategist</a>
-                                <ul class="listStyle">
+                                <a href="servicemiddle.html" className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" >Digital Financial Strategist</a>
+                                <ul className="listStyle">
                                     <li>Personalised Advice</li>
-                                    <li>Years of experience in your business  </li>
+                                    <li>Years of experience in your<br/>business</li>
                                     <li>Meetings at your convenience</li>
                                     <li>No overhead costs </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
-                            <div class="service10-boxarea text-center">
-                                <div class="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" class="keyframe3 ts" />
-                                    <div class="elips-icon6 ts">
-                                        <img src={logo} alt="" class="ts" />
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                            <div className="service10-boxarea text-center">
+                                <div className="welcome-ellipsbox ts">
+                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    <div className="elips-icon6 ts">
+                                        <img src={img2} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">E-Accountants</a>
-                                <ul class="listStyle">
+                                <a href="servicemiddle.html" className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">E-Accountants</a>
+                                <ul className="listStyle">
                                     <li>Get experienced accounts from the same industry for extra care</li>
                                     <li>Get one at your doorstep</li>
                                     <li>Affordable fees</li>
@@ -67,16 +77,16 @@ const MainServices = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
-                            <div class="service10-boxarea text-center">
-                                <div class="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" class="keyframe3 ts" />
-                                    <div class="elips-icon6 ts">
-                                        <img src={logo} alt="" class="ts" />
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                            <div className="service10-boxarea text-center">
+                                <div className="welcome-ellipsbox ts">
+                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    <div className="elips-icon6 ts">
+                                        <img src={img3} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" >Salary Processing Services</a>
-                                <ul class="listStyle">
+                                <a href="servicemiddle.html" className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" >Salary Processing Services</a>
+                                <ul className="listStyle">
                                     <li>Timely Pay</li>
                                     <li>Accurate calculations considering diverse needs</li>
                                     <li>Premium portal access</li>
@@ -84,16 +94,16 @@ const MainServices = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
-                            <div class="service10-boxarea text-center">
-                                <div class="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" class="keyframe3 ts" />
-                                    <div class="elips-icon6 ts">
-                                        <img src={logo} alt="" class="ts" />
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                            <div className="service10-boxarea text-center">
+                                <div className="welcome-ellipsbox ts">
+                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    <div className="elips-icon6 ts">
+                                        <img src={img4} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Revenue Projections</a>
-                                <ul class="listStyle">
+                                <a href="servicemiddle.html" className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Revenue Projections</a>
+                                <ul className="listStyle">
                                     <li>Accurate resource allocations with AI</li>
                                     <li>Market analysis</li>
                                     <li>Custom projections</li>
@@ -101,16 +111,16 @@ const MainServices = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
-                            <div class="service10-boxarea text-center">
-                                <div class="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" class="keyframe3 ts" />
-                                    <div class="elips-icon6 ts">
-                                        <img src={logo} alt="" class="ts" />
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                            <div className="service10-boxarea text-center">
+                                <div className="welcome-ellipsbox ts">
+                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    <div className="elips-icon6 ts">
+                                        <img src={img5} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Data Management Solutions</a>
-                                <ul class="listStyle">
+                                <a href="servicemiddle.html" className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Data Management Solutions</a>
+                                <ul className="listStyle">
                                     <li>Automated data fetch</li>
                                     <li>AI-based data segregation</li>
                                     <li>Data analysis and reporting</li>
@@ -118,33 +128,33 @@ const MainServices = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
-                            <div class="service10-boxarea text-center">
-                                <div class="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" class="keyframe3 ts" />
-                                    <div class="elips-icon6 ts">
-                                        <img src={logo} alt="" class="ts" />
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                            <div className="service10-boxarea text-center">
+                                <div className="welcome-ellipsbox ts">
+                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    <div className="elips-icon6 ts">
+                                        <img src={img6} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Insure Visionary</a>
-                                <ul class="listStyle">
-                                    <li>Get strategic and tactical advice for tax planning</li>
+                                <a href="servicemiddle.html" className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Insure Visionary</a>
+                                <ul className="listStyle">
+                                    <li>Get strategic and tactical advice for tax<br/> planning</li>
                                     <li>Save more with Quick Accounting</li>
                                     <li>Complies with all laws</li>
                                     <li>Working CPAs at your service  </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
-                            <div class="service10-boxarea text-center">
-                                <div class="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" class="keyframe3 ts" />
-                                    <div class="elips-icon6 ts">
-                                        <img src={logo} alt="" class="ts" />
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                            <div className="service10-boxarea text-center">
+                                <div className="welcome-ellipsbox ts">
+                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    <div className="elips-icon6 ts">
+                                        <img src={img7} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Governance And Compliance</a>
-                                <ul class="listStyle">
+                                <a href="servicemiddle.html" className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Governance And Compliance</a>
+                                <ul className="listStyle">
                                     <li>International alliance with CPAs and CAs</li>
                                     <li>Adheres to local laws and industrial standards</li>
                                     <li>Provides clear formats to reduce headaches at year-end</li>
@@ -152,16 +162,16 @@ const MainServices = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
-                            <div class="service10-boxarea text-center">
-                                <div class="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" class="keyframe3 ts" />
-                                    <div class="elips-icon6 ts">
-                                        <img src={logo} alt="" class="ts" />
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                            <div className="service10-boxarea text-center">
+                                <div className="welcome-ellipsbox ts">
+                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    <div className="elips-icon6 ts">
+                                        <img src={img8} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Audits And Financial Reviews</a>
-                                <ul class="listStyle">
+                                <a href="servicemiddle.html" className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Audits And Financial Reviews</a>
+                                <ul className="listStyle">
                                     <li>Follows recognised audit procedures</li>
                                     <li>Internal and External audits</li>
                                     <li>Avoid legal fines</li>
@@ -169,16 +179,18 @@ const MainServices = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
-                            <div class="service10-boxarea text-center">
-                                <div class="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" class="keyframe3 ts" />
-                                    <div class="elips-icon6 ts">
-                                        <img src={logo} alt="" class="ts" />
+                        <div className="col-lg-2 col-md-2 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                        </div>
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                            <div className="service10-boxarea text-center">
+                                <div className="welcome-ellipsbox ts">
+                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    <div className="elips-icon6 ts">
+                                        <img src={img9} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Gst/Hst</a>
-                                <ul class="listStyle">
+                                <a href="servicemiddle.html" className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Gst/Hst</a>
+                                <ul className="listStyle">
                                     <li>T1 to T5 tax filings</li>
                                     <li>Maintain your presence and records</li>
                                     <li>Support to manage fines</li>
@@ -186,22 +198,24 @@ const MainServices = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
-                            <div class="service10-boxarea text-center">
-                                <div class="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" class="keyframe3 ts" />
-                                    <div class="elips-icon6 ts">
-                                        <img src={logo} alt="" class="ts" />
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                            <div className="service10-boxarea text-center">
+                                <div className="welcome-ellipsbox ts">
+                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    <div className="elips-icon6 ts">
+                                        <img src={img10} width={'38px'} height={'38px'} alt="" className="ts" style={{textAlign:'center'}} />
                                     </div>
                                 </div>
-                                <a href="servicemiddle.html" class="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Contracted Services </a>
-                                <ul class="listStyle">
+                                <a href="servicemiddle.html" className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Contracted Services </a>
+                                <ul className="listStyle">
                                     <li>Affordable prices</li>
                                     <li>Experienced professionals</li>
                                     <li>Get helping hands in peak seasons</li>
                                     <li>One-stop solution for all your needs</li>
                                 </ul>
                             </div>
+                        </div>
+                        <div className="col-lg-2 col-md-2 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
                         </div>
                     </div>
                 </div>
