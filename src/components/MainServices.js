@@ -26,6 +26,23 @@ const MainServices = () => {
                         </div>
                     </div>
                     <div className="row" style={{ marginTop: '50px' }}>
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                            <div className="service10-boxarea text-center">
+                                <div className="welcome-ellipsbox ts">
+                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    <div className="elips-icon6 ts">
+                                        <img src={img1} width={'38px'} height={'38px'} alt="" className="ts" />
+                                    </div>
+                                </div>
+                                <a href="servicemiddle.html" className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" >Outsourcing services</a>
+                                <ul className="listStyle">
+                                    <li>Have extra hands for payment processing</li>
+                                    <li>Maintaining vendor master data Process journal entries</li>
+                                    <li>Bank reconciliations Record tax accounting</li>
+                                    <li>get detailed and graphical reports</li>
+                                </ul>
+                            </div>
+                        </div>
                         <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
@@ -40,23 +57,6 @@ const MainServices = () => {
                                     <li>Records all information</li>
                                     <li>Automated data recording from multiple sources</li>
                                     <li>Record reconciliations </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
-                            <div className="service10-boxarea text-center">
-                                <div className="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
-                                    <div className="elips-icon6 ts">
-                                        <img src={img1} width={'38px'} height={'38px'} alt="" className="ts" />
-                                    </div>
-                                </div>
-                                <a href="servicemiddle.html" className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" >Digital Financial Strategist</a>
-                                <ul className="listStyle">
-                                    <li>Personalised Advice</li>
-                                    <li>Years of experience in your<br/>business</li>
-                                    <li>Meetings at your convenience</li>
-                                    <li>No overhead costs </li>
                                 </ul>
                             </div>
                         </div>
@@ -138,7 +138,7 @@ const MainServices = () => {
                                 </div>
                                 <a href="servicemiddle.html" className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Insure Visionary</a>
                                 <ul className="listStyle">
-                                    <li>Get strategic and tactical advice for tax<br/> planning</li>
+                                    <li>Get strategic and tactical advice for tax<br /> planning</li>
                                     <li>Save more with Quick Accounting</li>
                                     <li>Complies with all laws</li>
                                     <li>Working CPAs at your service  </li>
@@ -203,7 +203,7 @@ const MainServices = () => {
                                 <div className="welcome-ellipsbox ts">
                                     <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
                                     <div className="elips-icon6 ts">
-                                        <img src={img10} width={'38px'} height={'38px'} alt="" className="ts" style={{textAlign:'center'}} />
+                                        <img src={img10} width={'38px'} height={'38px'} alt="" className="ts" style={{ textAlign: 'center' }} />
                                     </div>
                                 </div>
                                 <a href="servicemiddle.html" className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Contracted Services </a>
