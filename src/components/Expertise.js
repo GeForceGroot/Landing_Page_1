@@ -20,7 +20,7 @@ const Expertise = () => {
                     </div>
 
                     <div className="row" style={{textAlign:'start'}}>
-                        <div className="col-lg-6 aos-init" id='setExp' data-aos="zoom-out" data-aos-duration="1000">
+                        <div className="col-lg-6 aos-init" id='setExp' data-aos="zoom-out" data-aos-duration="800">
                             <div className="servicebrne8area margin-b30">
                                 <div className="servicebene-icons ts">
                                     <img src={img1} width={'38px'} height={'38px'} alt="" className="ts"/>
@@ -30,18 +30,18 @@ const Expertise = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 aos-init" id='setExp' data-aos="zoom-out" data-aos-duration="1200">
+                        <div className="col-lg-6 aos-init" id='setExp' data-aos="zoom-out" data-aos-duration="1000">
                             <div className="servicebrne8area margin-b30">
                                 <div className="servicebene-icons ts">
                                     <img src={img2} width={'38px'} height={'38px'} alt="" className="ts"/>
                                 </div>
                                 <a href="servicemiddle.html" className="font-20 lineh-20 weight-600 color39 d-inline-block margin-b14 font-lora ts">Client-Oriented</a>
-                                <p className="font-16 weight-500 font-ks colorhp1 lineh-26 ts">Our values make us to revolve around client needs and objectives. We do not create services and adjust them as per client. Our services are created for you and licensed to you.</p>
+                                <p className="font-16 weight-500 font-ks colorhp1 lineh-26 ts">Our values make us to revolve around client needs and objectives. We do not create services and adjust them as per client. Our services are created for you.</p>
                             </div>
                         </div>
 
 
-                        <div className="col-lg-6 aos-init" id='setExp' data-aos="zoom-out" data-aos-duration="1400">
+                        <div className="col-lg-6 aos-init" id='setExp' data-aos="zoom-out" data-aos-duration="1200">
                             <div className="servicebrne8area margin-b30">
                                 <div className="servicebene-icons ts">
                                     <img src={img3} width={'38px'} height={'38px'} alt="" className="ts"/>
@@ -52,7 +52,7 @@ const Expertise = () => {
                         </div>
 
 
-                        <div className="col-lg-6 aos-init" id='setExp' data-aos="zoom-out" data-aos-duration="1600">
+                        <div className="col-lg-6 aos-init" id='setExp' data-aos="zoom-out" data-aos-duration="1400">
                             <div className="servicebrne8area margin-b30">
                                 <div className="servicebene-icons ts">
                                     <img src={img4} width={'38px'} height={'38px'} alt="" className="ts"/>

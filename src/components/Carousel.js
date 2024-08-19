@@ -70,23 +70,20 @@ const Carousel = () => {
               </div>
               <div className="col-md-8">
                 <ul className="nav justify-content-center">
-                  <li className="nav-item" data-aos="fade-down" data-aos-duration="1000">
-                    <Link to="home" smooth={true} duration={1000} className="nav-link" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px' }}>Home</Link>
+                  <li className="nav-item" data-aos="fade-down" data-aos-duration="800">
+                    <Link to="home" smooth={true} duration={800} className="nav-link" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px' }}>Home</Link>
                   </li>
-                  <li className="nav-item" data-aos="fade-down" data-aos-duration="1000">
-                    <Link to="about-us" smooth={true} duration={1000} className="nav-link" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px' }}>
+                  <li className="nav-item" data-aos="fade-down" data-aos-duration="800">
+                    <Link to="about-us" smooth={true} duration={800} className="nav-link" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px' }}>
                       About&nbsp;Us
                     </Link>
                   </li>
-                  <li className="nav-item" data-aos="fade-down" data-aos-duration="1000">
-                    <Link to="services" smooth={true} duration={1000} className="nav-link" style={{ color: scrolled ? '#015c91 ' : 'white', fontWeight: '500', fontSize: '16px' }}>
+                  <li className="nav-item" data-aos="fade-down" data-aos-duration="800">
+                    <Link to="services" smooth={true} duration={800} className="nav-link" style={{ color: scrolled ? '#015c91 ' : 'white', fontWeight: '500', fontSize: '16px' }}>
                       Services
                     </Link>
                   </li>
                 </ul>
-              </div>
-              <div className="col-md-2 text-end" data-aos="fade-left" data-aos-duration="1000">
-                {/* <button id="btnHvn"><span>Login</span></button> */}
               </div>
             </div>
           </div>
@@ -95,7 +92,7 @@ const Carousel = () => {
         <div className="container" style={{ marginTop: "150px", paddingBottom: "118px" }}>
           <div className="row">
             <div className="col">
-              <div className="innerBox" data-aos="fade-right" data-aos-duration="1000" style={{ marginTop: '75px', color: '#b9def4', fontSize: '18px', borderRadius: '4px', padding: '8px 14px', background: 'rgb(182 225 248 / 10%)' }}>
+              <div className="innerBox" data-aos="fade-right" data-aos-duration="800" style={{ marginTop: '75px', color: '#b9def4', fontSize: '18px', borderRadius: '4px', padding: '8px 14px', background: 'rgb(182 225 248 / 10%)' }}>
                 Maximize Your Earnings with Expert Tax and Bookkeeping Solutions
               </div>
               <p data-aos="zoom-in" data-aos-duration="1200" style={{ marginTop: "25px", fontSize: '45px', fontWeight: "600", fontFamily: 'ui-sans-serif', color: 'whitesmoke' }}>"Your Quick Way To Success"</p>
@@ -107,20 +104,20 @@ const Carousel = () => {
               <form ref={form} className="form" onSubmit={sendEmail} data-aos="fade-left" data-aos-duration="1200">
                 <div className='row'>
                   <h4 style={{ display: 'flex', color: 'rgba(32, 64, 99, 0.8)', fontWeight: '700', textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', letterSpacing: '1px' }}> Request a free consult now!</h4>
-                  <div className="col form-group" data-aos="fade-up" data-aos-duration="1000">
+                  <div className="col form-group" data-aos="fade-up" data-aos-duration="800">
                     <label htmlFor="name" style={{ color: 'whitesmoke', display: 'flex', fontSize: '15px' }}>Your Name (Required)</label>
                     <input type="text" id="name" name="name" placeholder="Enter your name" required />
                   </div>
-                  <div className="col form-group" data-aos="fade-up" data-aos-duration="1000">
+                  <div className="col form-group" data-aos="fade-up" data-aos-duration="800">
                     <label htmlFor="email" style={{ color: 'whitesmoke', display: 'flex', fontSize: '15px' }}>Your Email (Required)</label>
                     <input type="email" id="email" name="email" placeholder="Enter your email" required />
                   </div>
                 </div>
-                <div className="form-group" data-aos="fade-up" data-aos-duration="1000" style={{ marginTop: '20px' }}>
+                <div className="form-group" data-aos="fade-up" data-aos-duration="800" style={{ marginTop: '20px' }}>
                   <label htmlFor="phone" style={{ color: 'whitesmoke', display: 'flex', fontSize: '15px' }}>Phone (Optional)</label>
                   <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" />
                 </div>
-                <div className="form-group" data-aos="fade-up" data-aos-duration="1000" style={{ marginTop: '20px' }}>
+                <div className="form-group" data-aos="fade-up" data-aos-duration="800" style={{ marginTop: '20px' }}>
                   <label htmlFor="requirement" style={{ color: 'whitesmoke', display: 'flex', fontSize: '15px' }}>Tell Us About Your Requirement</label>
                   <textarea id="requirement" name="requirement" rows="4" placeholder="Describe your needs in detail"></textarea>
                 </div>

@@ -1,48 +1,93 @@
-img.elementor-9{
-    width: 112px;
-    height: 112px;
-    position: absolute;
-    top: -35px;
-    left: -35px;
+
+
+.about3-images1 {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
 }
 
-.about3-images1{
-    position: relative;
+img.elementor-9 {
+  width: 112px;
+  height: 112px;
+  position: absolute;
+  top: -35px;
+  left: -35px;
+  max-width: 100%;
 }
 
-span.about3span{
-    border-radius: 5px;
-    background: rgba(0, 125, 231, 0.10);
-    padding: 10px 16px;
-    color: #015c91;
-    font-weight: 500;
+span.about3span {
+  border-radius: 5px;
+  background: rgba(0, 125, 231, 0.10);
+  padding: 10px 16px;
+  color: #015c91;
+  font-weight: 500;
 }
 
-.margin-b24{
-    margin-bottom: 24px;
+.margin-b24 {
+  margin-bottom: 24px;
 }
 
-.counter3-boxarea4{
-    border-radius: 5px;
-    background: #FFF;
-    display: flex;
-    box-shadow: 0px 2px 48px 0px rgba(0, 0, 0, 0.09);
-    min-width: 240px;
-    min-height: 120px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    line-height: 50px;
-    transition: all .4s ease-in-out;
-    color: #015c91;
+.counter3-boxarea4 {
+  border-radius: 5px;
+  background: #FFF;
+  display: flex;
+  box-shadow: 0px 2px 48px 0px rgba(0, 0, 0, 0.09);
+  min-width: 240px;
+  min-height: 120px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 50px;
+  transition: all .4s ease-in-out;
+  color: #015c91;
 }
 
+.font-ks {
+  font-weight: 500;
+}
 
-  .font-ks{
-    font-weight: 500;
+.font-lora {
+  color: black;
+}
+
+@media (max-width: 991px) {
+  .col-lg-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
   }
-
-  .font-lora{
-    color: black;
+  .about3-images1 img {
+      width: 100%;
+      height: auto;
+      position: static;
   }
+}
+
+
+.counter2-section-area{
+  position: relative;
+}
+
+.counter2-section-area{
+  background: #E9EDF4;
+  padding: 80px 0;
+}
+
+.countre2-boxarea{
+  border-radius: 4px;
+  background: #FFF;
+  min-width: 270px;
+  min-height: 169px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .4s ease-in-out;
+}
+
+#setCounter{
+  color: #015c91;
+  font-weight: 600;
+  font-size: 17px;
+}
+
