@@ -9,11 +9,11 @@ import Service from "./components/Service";
 import TeamMember from "./components/TeamMember";
 import Value from "./components/Value";
 import MainServices from "./components/MainServices";
-import Impact from "./components/Impact";
 import Expertise from "./components/Expertise";
 import Process from "./components/Process";
 import Footer from "./components/Footer";
 import ProgressBar from './components/ProgressBar';
+import Counter from './components/Counter';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -56,7 +56,8 @@ function MainContent() {
         <section id="services">
         <MainServices />
         </section>
-        <Impact />
+        {/* <Impact /> */}
+        <Counter/>
         <Expertise />
         <Process />
         <Footer />

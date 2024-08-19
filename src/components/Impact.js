@@ -57,7 +57,7 @@ const Impact = () => {
               <div class="countre2-boxarea text-center">
                 <div class="counter-box">
                   <h1 class="font-outfit font-44 lineh-52 color-17 weight-600"><span class="counter">{inView && <CountUp start={0} end={800} duration={2} />} +</span></h1>
-                  <p class="font-outfit font-16 lineh-16 color-15 weight-400 margin-t" id='setCounter'>Clients on are Recrurring Basis</p>
+                  <p class="font-outfit font-16 lineh-16 color-15 weight-400 margin-t" >Clients on are Recrurring Basis</p>
                 </div>
               </div>
             </div>
