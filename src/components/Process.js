@@ -84,7 +84,7 @@ const Process = () => {
                         <div className="col-lg-1"></div>
                         <div className="col-lg-6 aos-init aos-animate" data-aos="zoom-out" data-aos-duration="1600">
                             <div className="companyimgaes">
-                                <img src={img} alt="" />
+                                <img id='imgPro' src={img} alt="" />
                             </div>
                         </div>
                     </div>

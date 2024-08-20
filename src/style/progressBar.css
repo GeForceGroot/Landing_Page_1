@@ -1,10 +1,11 @@
 /* src/components/ProgressBar.css */
+
 .progress-bar-container {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 80px;  /* Reduced size */
-  height: 80px; /* Reduced size */
+  width: 80px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,14 +24,14 @@
 
 .progress-bar-circle {
   position: relative;
-  width: 80px;  /* Reduced size */
-  height: 80px; /* Reduced size */
+  width: 80px;
+  height: 80px;
   transform: rotate(-90deg);
 }
 
 .progress-bar-svg {
-  width: 80px;  /* Reduced size */
-  height: 80px; /* Reduced size */
+  width: 80px;
+  height: 80px;
   position: absolute;
   top: 0;
   left: 0;
@@ -38,9 +39,9 @@
 
 .progress-bar-svg circle {
   fill: none;
-  stroke-width: 8; /* Reduced stroke width */
+  stroke-width: 8;
   stroke: #425b76;
-  stroke-dasharray: 220; /* Adjusted to match the smaller circle */
+  stroke-dasharray: 220;
   stroke-dashoffset: 220;
   transition: stroke-dashoffset 0.35s;
 }
@@ -55,8 +56,63 @@
   left: 50%;
   width: 0;
   height: 0;
-  border-left: 8px solid transparent; /* Reduced size */
-  border-right: 8px solid transparent; /* Reduced size */
-  border-bottom: 16px solid #425b76;      /* Reduced size */
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 16px solid #425b76;
   transform: translate(-50%, -50%) rotate(45deg);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .progress-bar-container {
+    width: 60px;
+    height: 60px;
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .progress-bar-circle,
+  .progress-bar-svg {
+    width: 60px;
+    height: 60px;
+  }
+
+  .progress-bar-svg circle {
+    stroke-width: 6;
+    stroke-dasharray: 165;
+    stroke-dashoffset: 165;
+  }
+
+  .progress-bar-arrow {
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 12px solid #425b76;
+  }
+}
+
+@media (max-width: 480px) {
+  .progress-bar-container {
+    width: 40px;
+    height: 40px;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .progress-bar-circle,
+  .progress-bar-svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .progress-bar-svg circle {
+    stroke-width: 4;
+    stroke-dasharray: 110;
+    stroke-dashoffset: 110;
+  }
+
+  .progress-bar-arrow {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 8px solid #425b76;
+  }
 }
