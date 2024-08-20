@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="footer-section">
                 <div className="container" style={{ paddingTop: '70px' }}>
                     <div className="row">
-                        <div className="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-right" data-aos-duration="1200" style={{ textAlign: 'start' }}>
+                        <div className="col-lg-4 col-md-6 aos-init aos-animate" id='w' data-aos="fade-right" data-aos-duration="1200" >
                             <div className="footer-logo-text">
                                 <img src={img} alt="Logo" className="footer-logo" />
                                 <p className="footer-description">
@@ -33,7 +33,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-left" data-aos-duration="1200" style={{ textAlign: 'start' }}>
+                        <div className="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-left" data-aos-duration="1200" id='setFooter' >
                             <div className="footer-contact">
                                 <h2 className="footer-title">Contact Us</h2>
                                 <div className="footer-contact-info">

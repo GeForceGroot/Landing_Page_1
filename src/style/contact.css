@@ -132,7 +132,19 @@ button[type="submit"] {
     font-size: 14px;
     /* Adjust as needed */
   }
+
+  
 }
+
+.paraText {
+  text-align: left;
+  margin-left: 60px ;
+  font-size: 20px ;
+  color: whitesmoke ;
+  font-weight: 500 ;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1) ;
+}
+
 
 #carousel {
   position: relative;
@@ -188,17 +200,28 @@ button[type="submit"] {
 #btnSubmit {
   /* Default button styling */
   padding: 7px 25px;
-  background-color: #b9def4; /* Initial background color */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Initial box-shadow */
-  border: none; /* No border */
-  border-radius: 10px; /* Rounded corners */
-  color: #015c91; /* Initial text color */
-  cursor: pointer; /* Pointer cursor on hover */
-  position: relative; /* Positioning context for pseudo-elements */
-  overflow: hidden; /* Hide overflow of pseudo-elements */
-  font-size: 15px; /* Font size */
-  font-weight: 500; /* Font weight */
-  transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease; /* Smooth transition */
+  background-color: #b9def4;
+  /* Initial background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Initial box-shadow */
+  border: none;
+  /* No border */
+  border-radius: 10px;
+  /* Rounded corners */
+  color: #015c91;
+  /* Initial text color */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  position: relative;
+  /* Positioning context for pseudo-elements */
+  overflow: hidden;
+  /* Hide overflow of pseudo-elements */
+  font-size: 15px;
+  /* Font size */
+  font-weight: 500;
+  /* Font weight */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  /* Smooth transition */
   width: 150px;
 }
 
@@ -210,36 +233,45 @@ button[type="submit"] {
   width: 50%;
   top: 0;
   transition: transform 0.3s ease;
-  z-index: 0; /* Ensure pseudo-elements are behind text */
+  z-index: 0;
+  /* Ensure pseudo-elements are behind text */
 }
 
 #btnSubmit::before {
   left: 0;
-  background-color: #425b76; /* Background color for sliding effect */
+  background-color: #425b76;
+  /* Background color for sliding effect */
   transform: translateX(-100%);
 }
 
 #btnSubmit::after {
   right: 0;
-  background-color: #425b76; /* Background color for sliding effect */
+  background-color: #425b76;
+  /* Background color for sliding effect */
   transform: translateX(100%);
 }
 
 #btnSubmit:hover::before,
 #btnSubmit:hover::after {
-  transform: translateX(0); /* Slide effect on hover */
+  transform: translateX(0);
+  /* Slide effect on hover */
 }
 
 #btnSubmit:hover {
-  background-color: #425b76; /* Change background color on hover */
-  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22); /* Hover effect for box-shadow */
+  background-color: #425b76;
+  /* Change background color on hover */
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+  /* Hover effect for box-shadow */
   /* color: white; Change text color to white on hover */
 }
 
 #btnSubmit span {
-  position: relative; /* Relative position for stacking context */
-  z-index: 1; /* Ensure text stays above pseudo-elements */
-  transition: color 0.3s ease; /* Smooth transition for text color */
+  position: relative;
+  /* Relative position for stacking context */
+  z-index: 1;
+  /* Ensure text stays above pseudo-elements */
+  transition: color 0.3s ease;
+  /* Smooth transition for text color */
 }
 
 /* Ensure the button text remains visible and centered */
@@ -262,17 +294,28 @@ button[type="submit"] {
 #btnSubmit {
   /* Default button styling */
   padding: 7px 25px;
-  background-color: #b9def4; /* Initial background color */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Initial box-shadow */
-  border: none; /* No border */
-  border-radius: 10px; /* Rounded corners */
-  color: #015c91; /* Initial text color */
-  cursor: pointer; /* Pointer cursor on hover */
-  position: relative; /* Positioning context for pseudo-elements */
-  overflow: hidden; /* Hide overflow of pseudo-elements */
-  font-size: 15px; /* Font size */
-  font-weight: 500; /* Font weight */
-  transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease; /* Smooth transition */
+  background-color: #b9def4;
+  /* Initial background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Initial box-shadow */
+  border: none;
+  /* No border */
+  border-radius: 10px;
+  /* Rounded corners */
+  color: #015c91;
+  /* Initial text color */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  position: relative;
+  /* Positioning context for pseudo-elements */
+  overflow: hidden;
+  /* Hide overflow of pseudo-elements */
+  font-size: 15px;
+  /* Font size */
+  font-weight: 500;
+  /* Font weight */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  /* Smooth transition */
 }
 
 #btnSubmit::before,
@@ -283,36 +326,45 @@ button[type="submit"] {
   width: 50%;
   top: 0;
   transition: transform 0.3s ease;
-  z-index: 0; /* Ensure pseudo-elements are behind text */
+  z-index: 0;
+  /* Ensure pseudo-elements are behind text */
 }
 
 #btnSubmit::before {
   left: 0;
-  background-color: #425b76; /* Background color for sliding effect */
+  background-color: #425b76;
+  /* Background color for sliding effect */
   transform: translateX(-100%);
 }
 
 #btnSubmit::after {
   right: 0;
-  background-color: #425b76; /* Background color for sliding effect */
+  background-color: #425b76;
+  /* Background color for sliding effect */
   transform: translateX(100%);
 }
 
 #btnSubmit:hover::before,
 #btnSubmit:hover::after {
-  transform: translateX(0); /* Slide effect on hover */
+  transform: translateX(0);
+  /* Slide effect on hover */
 }
 
 #btnSubmit:hover {
-  background-color: #425b76; /* Change background color on hover */
-  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22); /* Hover effect for box-shadow */
-  color: white; 
+  background-color: #425b76;
+  /* Change background color on hover */
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+  /* Hover effect for box-shadow */
+  color: white;
 }
 
 #btnSubmit span {
-  position: relative; /* Relative position for stacking context */
-  z-index: 1; /* Ensure text stays above pseudo-elements */
-  transition: color 0.3s ease; /* Smooth transition for text color */
+  position: relative;
+  /* Relative position for stacking context */
+  z-index: 1;
+  /* Ensure text stays above pseudo-elements */
+  transition: color 0.3s ease;
+  /* Smooth transition for text color */
 }
 
 /* Ensure the button text remains visible and centered */
@@ -322,7 +374,7 @@ button[type="submit"] {
   justify-content: center;
 }
 
-img.elementor-9{
+img.elementor-9 {
   width: 112px;
   height: 112px;
   position: absolute;
@@ -330,7 +382,7 @@ img.elementor-9{
   left: 15px;
 }
 
-img.about5ims{
+img.about5ims {
   z-index: 1;
   position: relative;
   border-radius: 5px;
@@ -338,7 +390,7 @@ img.about5ims{
   height: 100%;
 }
 
-span.consultingspan{
+span.consultingspan {
   border-radius: 2px;
   padding: 10px;
   background: rgba(0, 125, 231, 0.10);
@@ -346,28 +398,31 @@ span.consultingspan{
   font-weight: 500;
 }
 
-.abou-5textarea5{
+.abou-5textarea5 {
   padding: 0px 0px 0px 50px;
   text-align: start;
   color: #015c91;
 }
 
-.about5-authorarea{
+.about5-authorarea {
   border-radius: 10px;
   background: #FFF;
   box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.08);
   padding: 24px 20px;
 }
-.about5-authorarea:hover{
+
+.about5-authorarea:hover {
   background: #425b76;
   transform: translateY(-10px);
   color: white;
   transition: all .4s ease-in-out;
 }
-.margin-t32{
+
+.margin-t32 {
   margin-top: 20px;
 }
-.author0mages{
+
+.author0mages {
   position: absolute;
   border-radius: 64px;
   background: #007DE7;
@@ -382,7 +437,7 @@ span.consultingspan{
 }
 
 
-.author0mages::after{
+.author0mages::after {
   position: absolute;
   content: "";
   top: -10px;
@@ -396,16 +451,12 @@ span.consultingspan{
   transition: all .4s ease-in-out;
 }
 
-.about5-authortext{
+.about5-authortext {
   margin-left: 50px;
   margin-top: -20px;
 }
 
-#missionCss{
-  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3) ;
+#missionCss {
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
 }
-
-
-
-
 

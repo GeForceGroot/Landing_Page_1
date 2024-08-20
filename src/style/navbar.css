@@ -1,17 +1,20 @@
-.navbar-brand{
+.navbar-brand {
     font-size: 20px;
-    font-family: 'Trebuchet MS', sans-serif; 
+    font-family: 'Trebuchet MS', sans-serif;
 }
-#imgLogo{
+
+#imgLogo {
     max-width: 170px;
     max-height: 85px;
 }
-#myCont{
+
+#myCont {
     display: flex;
     color: black;
     justify-content: center;
 }
-#NavId{
+
+#NavId {
     z-index: 3;
     display: flex;
     width: 100vw;
@@ -19,21 +22,62 @@
     padding-top: 25x;
     padding-bottom: 25px;
 }
-@media (max-width:300px) {
-    #imgLogo{
+
+@media (max-width:480px) {
+    #imgLogo {
         width: 150px;
         height: 70px;
     }
-}
-@media (max-width:990px) {
-    #myCont{
+
+    #name {
+        width: 260px;
+    }
+
+    #email {
+        width: 260px;
+    }
+
+    #phone {
+        width: 260px;
+    }
+
+    #requirement {
+        width: 260px;
+    }
+
+    .paraText {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    #rowReverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .abou-5textarea5 {
+        padding: 0px 0px 0px 5px;
+    }
+
+    img.elementor-9 {
         display: none;
     }
-    #navLogo{
+
+    .about5-images {
+        margin-top: 3%;
+    }
+}
+
+@media (max-width:990px) {
+    #myCont {
+        display: none;
+    }
+
+    #navLogo {
         justify-content: center;
     }
 }
-  
+
 /* Navbar Section Styles */
 .navbar-section {
     position: sticky;
@@ -68,22 +112,18 @@
     width: 100%;
     z-index: 5;
     transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  .Nav.scrolled {
+}
+
+.Nav.scrolled {
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .nav-link {
+}
+
+.nav-link {
     color: white;
     transition: color 0.3s ease;
-  }
-  
-  .Nav.scrolled .nav-link {
+}
+
+.Nav.scrolled .nav-link {
     color: black;
-  }
-  
-  
-
-
+}

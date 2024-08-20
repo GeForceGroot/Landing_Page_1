@@ -48,15 +48,14 @@ function MainContent() {
           <Carousel />
         </section>
         <BusinessFamily />
-          <Service />
+        <Service />
         <section id="about-us">
           <TeamMember />
         </section>
         <Value />
         <section id="services">
-        <MainServices />
+          <MainServices />
         </section>
-        {/* <Impact /> */}
         <Counter/>
         <Expertise />
         <Process />

@@ -23,10 +23,10 @@ const Service = () => {
       <div className="company5-section-area section-padding5" style={{ backgroundColor: '#EEF7FF' }}>
         <img src={deagin1} alt="" className="elementoe5" />
         <div className="container">
+          <span className="font-16 font-outfit weight-500 lineh-16 color36 d-inline-block consultingspan margin-b20">How We Works</span>
           <div className="row align-items-centers">
-            <div className="col-lg-6" style={{ marginTop: '-50px' }}>
+            <div className="col-lg-6" id='removeCol' >
               <div className="works5-sectino">
-                <span className="font-16 font-outfit weight-500 lineh-16 color36 d-inline-block consultingspan margin-b20">How We Works</span>
                 <p style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '100px' }} className="font-outfit font-44 lineh-52 color37 weight-600 margin-b20" data-aos="fade-right" data-aos-duration="1200">Q</p>
                 <p style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '100px', marginTop: "70px" }} className="font-outfit font-44 lineh-52 color37 weight-600 margin-b20" data-aos="fade-right" data-aos-duration="1200">U</p>
                 <p style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '100px', marginTop: '70px' }} className="font-outfit font-44 lineh-52 color37 weight-600 margin-b20" data-aos="fade-right" data-aos-duration="1200">I</p>

@@ -60,3 +60,13 @@
     align-items: center;
     justify-content: center;
   }
+
+  @media (max-width:480px) {
+    #temaCol{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .team-detailsimg{
+      margin-top: 30px;
+    }
+  }

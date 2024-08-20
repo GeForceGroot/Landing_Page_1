@@ -13,6 +13,7 @@ span.consultingspan{
     padding: 10px;
     color: #015c91;
     font-weight: 500;
+    margin-bottom: 50px;
 }
 
 .margin-b20{
@@ -84,4 +85,11 @@ color: white;
 
 #setColor:hover .workstext a{
     color: white;
+}
+
+
+@media (max-width:480px) {
+   .works5-sectino{
+    display: none;
+   }
 }
