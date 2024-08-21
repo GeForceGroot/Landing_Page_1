@@ -7,12 +7,12 @@ const Process = () => {
         <>
             <div className="company6-section-area section-padding5">
                 <div className="container">
-                    <div className="row align-items-center" style={{textAlign:'start'}}>
+                    <div className="row align-items-center" style={{ textAlign: 'start' }}>
                         <div className="col-lg-5 aos-init aos-animate" data-aos="fade-right" data-aos-duration="1000">
                             <div className="company6text6">
                                 <span className="trusts font-16 lineh-16 font-nunito weight-600 color-h5 d-inline-block">In-House Proven Process</span>
-                                <h1 className="font-lora font-44 lineh-52 weight-600 colorwel margin-b" style={{textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)',marginTop:'10px'}}>Our Work Process</h1>
-                                <p className="font-nunito font16 weight-500 color-nuni lineh-26 margin-b30" style={{fontFamily:'inherit'}}>Our professionals have developed a quick way to meet your needs, over the years as,</p>
+                                <h1 className="font-lora font-44 lineh-52 weight-600 colorwel margin-b" style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', marginTop: '10px' }}>Our Work Process</h1>
+                                <p className="font-nunito font16 weight-500 color-nuni lineh-26 margin-b30" style={{ fontFamily: 'inherit' }}>Our professionals have developed a quick way to meet your needs, over the years as,</p>
                             </div>
 
                             <div className="accordian-area accordian5">
@@ -32,7 +32,7 @@ const Process = () => {
                                     <div className="accordion-item aos-init" data-aos="fade-right" data-aos-duration="1400">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            Initial Consultation
+                                                Initial Consultation
                                             </button>
                                         </h2>
                                         <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -44,7 +44,7 @@ const Process = () => {
                                     <div className="accordion-item aos-init" data-aos="fade-right" data-aos-duration="1600">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            Open Planning
+                                                Open Planning
                                             </button>
                                         </h2>
                                         <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -57,7 +57,7 @@ const Process = () => {
                                     <div className="accordion-item aos-init" data-aos="fade-right" data-aos-duration="1800">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            Implementation
+                                                Implementation
                                             </button>
                                         </h2>
                                         <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -68,7 +68,7 @@ const Process = () => {
                                     </div><div className="accordion-item aos-init" data-aos="fade-right" data-aos-duration="1800">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                            Ongoing Support
+                                                Ongoing Support
                                             </button>
                                         </h2>
                                         <div id="collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -89,8 +89,6 @@ const Process = () => {
                         </div>
                     </div>
                 </div>
-                <img src="assets/images/elementor/elementor37.png" alt="" className="elementor-16" />
-                <img src="assets/images/elementor/elementor38.png" alt="" className="elementors5" />
             </div>
         </>
     )

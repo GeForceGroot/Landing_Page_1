@@ -1,72 +1,107 @@
 #btnContact {
-    /* Default button styling */
-    padding: 7px 25px;
-    background-color: #b9def4; /* Initial background color */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Initial box-shadow */
-    border: none; /* No border */
-    border-radius: 10px; /* Rounded corners */
-    color: #015c91; /* Initial text color */
-    cursor: pointer; /* Pointer cursor on hover */
-    position: relative; /* Positioning context for pseudo-elements */
-    overflow: hidden; /* Hide overflow of pseudo-elements */
-    font-size: 15px; /* Font size */
-    font-weight: 500; /* Font weight */
-    transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease; /* Smooth transition */
-  }
-  
-  #btnContact::before,
-  #btnContact::after {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 50%;
-    top: 0;
-    transition: transform 0.3s ease;
-    z-index: 0; /* Ensure pseudo-elements are behind text */
-  }
-  
-  #btnContact::before {
-    left: 0;
-    background-color: #425b76; /* Background color for sliding effect */
-    transform: translateX(-100%);
-  }
-  
-  #btnContact::after {
-    right: 0;
-    background-color: #425b76; /* Background color for sliding effect */
-    transform: translateX(100%);
-  }
-  
-  #btnContact:hover::before,
-  #btnContact:hover::after {
-    transform: translateX(0); /* Slide effect on hover */
-  }
-  
-  #btnContact:hover {
-    background-color: #425b76; /* Change background color on hover */
-    box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22); /* Hover effect for box-shadow */
-    color: white; 
-  }
-  
-  #btnContact span {
-    position: relative; /* Relative position for stacking context */
-    z-index: 1; /* Ensure text stays above pseudo-elements */
-    transition: color 0.3s ease; /* Smooth transition for text color */
-  }
-  
-  /* Ensure the button text remains visible and centered */
-  #btnContact {
+  /* Default button styling */
+  padding: 7px 25px;
+  background-color: #b9def4;
+  /* Initial background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Initial box-shadow */
+  border: none;
+  /* No border */
+  border-radius: 10px;
+  /* Rounded corners */
+  color: #015c91;
+  /* Initial text color */
+  cursor: pointer;
+  /* Pointer cursor on hover */
+  position: relative;
+  /* Positioning context for pseudo-elements */
+  overflow: hidden;
+  /* Hide overflow of pseudo-elements */
+  font-size: 15px;
+  /* Font size */
+  font-weight: 500;
+  /* Font weight */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  /* Smooth transition */
+}
+
+#btnContact::before,
+#btnContact::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  top: 0;
+  transition: transform 0.3s ease;
+  z-index: 0;
+  /* Ensure pseudo-elements are behind text */
+}
+
+#btnContact::before {
+  left: 0;
+  background-color: #425b76;
+  /* Background color for sliding effect */
+  transform: translateX(-100%);
+}
+
+#btnContact::after {
+  right: 0;
+  background-color: #425b76;
+  /* Background color for sliding effect */
+  transform: translateX(100%);
+}
+
+#btnContact:hover::before,
+#btnContact:hover::after {
+  transform: translateX(0);
+  /* Slide effect on hover */
+}
+
+#btnContact:hover {
+  background-color: #425b76;
+  /* Change background color on hover */
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+  /* Hover effect for box-shadow */
+  color: white;
+}
+
+#btnContact span {
+  position: relative;
+  /* Relative position for stacking context */
+  z-index: 1;
+  /* Ensure text stays above pseudo-elements */
+  transition: color 0.3s ease;
+  /* Smooth transition for text color */
+}
+
+/* Ensure the button text remains visible and centered */
+#btnContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#kaushikImg {
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width:480px) {
+  #temaCol {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column-reverse;
   }
 
-  @media (max-width:480px) {
-    #temaCol{
-      display: flex;
-      flex-direction: column-reverse;
-    }
-    .team-detailsimg{
-      margin-top: 30px;
-    }
+  .team-detailsimg {
+    margin-top: 30px;
   }
+
+  #kaushikImg {
+    width: 300px;
+    height: 300px;
+  }
+}

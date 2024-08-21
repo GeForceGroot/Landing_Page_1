@@ -36,3 +36,8 @@ span.trusts{
 
 
 
+@media (max-width:480px) {
+    .companyimgaes{
+        display: none;
+    }
+}
