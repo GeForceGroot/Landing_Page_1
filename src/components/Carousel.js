@@ -71,15 +71,15 @@ const Carousel = () => {
               <div className="col-md-8">
                 <ul className="nav justify-content-center">
                   <li className="nav-item" data-aos="fade-down" data-aos-duration="800">
-                    <Link to="home" smooth={true} duration={800} className="nav-link" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px' }}>Home</Link>
+                    <Link to="home" smooth={true} duration={600} className="nav-link" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px' }}>Home</Link>
                   </li>
                   <li className="nav-item" data-aos="fade-down" data-aos-duration="800">
-                    <Link to="about-us" smooth={true} duration={800} className="nav-link" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px' }}>
+                    <Link to="about-us" smooth={true} duration={600} className="nav-link" style={{ color: scrolled ? '#015c91' : 'white', fontWeight: '500', fontSize: '16px' }}>
                       About&nbsp;Us
                     </Link>
                   </li>
                   <li className="nav-item" data-aos="fade-down" data-aos-duration="800">
-                    <Link to="services" smooth={true} duration={800} className="nav-link" style={{ color: scrolled ? '#015c91 ' : 'white', fontWeight: '500', fontSize: '16px' }}>
+                    <Link to="services" smooth={true} duration={600} className="nav-link" style={{ color: scrolled ? '#015c91 ' : 'white', fontWeight: '500', fontSize: '16px' }}>
                       Services
                     </Link>
                   </li>

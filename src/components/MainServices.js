@@ -18,7 +18,7 @@ const MainServices = () => {
 
     useEffect(() => {
         AOS.init({
-            duration: 1200, // Global duration for animations
+            duration: 800, // Global duration for animations
             easing: 'linear',
             once: false, // Animation happens every time the element enters the viewport
         });
@@ -37,7 +37,7 @@ const MainServices = () => {
                         </div>
                     </div>
                     <div className="row" style={{ marginTop: '50px' }}>
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
                                     <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
@@ -71,7 +71,7 @@ const MainServices = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
                                     <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
@@ -89,7 +89,7 @@ const MainServices = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
                                     <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
@@ -107,7 +107,7 @@ const MainServices = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
                                     <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
@@ -125,7 +125,7 @@ const MainServices = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
                                     <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
@@ -143,7 +143,7 @@ const MainServices = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
                                     <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
@@ -161,7 +161,7 @@ const MainServices = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
                                     <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
@@ -179,7 +179,7 @@ const MainServices = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
                                     <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
@@ -197,8 +197,8 @@ const MainServices = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-2 col-md-2 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear"></div>
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                        <div className="col-lg-2 col-md-2 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear"></div>
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
                                     <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
@@ -215,7 +215,7 @@ const MainServices = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear">
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
                                     <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
@@ -232,7 +232,7 @@ const MainServices = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-2 col-md-2 aos-init" data-aos="zoom-in" data-aos-duration="1200" data-aos-easing="linear"></div>
+                        <div className="col-lg-2 col-md-2 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear"></div>
                     </div>
                 </div>
             </div>

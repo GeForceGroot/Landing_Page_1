@@ -17,7 +17,7 @@ const Process = () => {
 
                             <div className="accordian-area accordian5">
                                 <div className="accordion accordian4" id="accordionExample">
-                                    <div className="accordion-item aos-init" data-aos="fade-right" data-aos-duration="1200">
+                                    <div className="accordion-item aos-init" data-aos="fade-right" data-aos-duration="800">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                                 Discovery Session
@@ -29,7 +29,7 @@ const Process = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="accordion-item aos-init" data-aos="fade-right" data-aos-duration="1400">
+                                    <div className="accordion-item aos-init" data-aos="fade-right" data-aos-duration="800">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                 Initial Consultation
@@ -41,7 +41,7 @@ const Process = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="accordion-item aos-init" data-aos="fade-right" data-aos-duration="1600">
+                                    <div className="accordion-item aos-init" data-aos="fade-right" data-aos-duration="800">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                                 Open Planning
@@ -54,7 +54,7 @@ const Process = () => {
                                         </div>
                                     </div>
 
-                                    <div className="accordion-item aos-init" data-aos="fade-right" data-aos-duration="1800">
+                                    <div className="accordion-item aos-init" data-aos="fade-right" data-aos-duration="800">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                                 Implementation
@@ -65,7 +65,7 @@ const Process = () => {
                                                 <p className="font-nunito font-16 lineh-26 weight-500 color-30 ">Active implementation is done backed up by continuous monitoring and real-time communication. Changes are made based on this.</p>
                                             </div>
                                         </div>
-                                    </div><div className="accordion-item aos-init" data-aos="fade-right" data-aos-duration="1800">
+                                    </div><div className="accordion-item aos-init" data-aos="fade-right" data-aos-duration="800">
                                         <h2 className="accordion-header">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                                 Ongoing Support

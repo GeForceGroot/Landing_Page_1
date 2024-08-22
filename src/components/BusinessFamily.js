@@ -11,7 +11,7 @@ const BusinessFamily = () => {
     <>
       <div className="container" style={{marginTop:'50px'}}>
         <div className="row align-items-center" id="rowReverse">
-          <div className="col-lg-6 aos-init" data-aos="zoom-out" data-aos-duration="1200">
+          <div className="col-lg-6 aos-init" data-aos="zoom-out" data-aos-duration="800">
             <div className="about5-images">
               <img src={mainImg} alt="" className="about5ims" />
               <img src={sidelogo} alt="" className="elementor-9 keyframe3" />
@@ -20,7 +20,7 @@ const BusinessFamily = () => {
           <div className="col-lg-6 aos-init aos-animate" data-aos="fade-right" data-aos-duration="800">
             <div className="abou-5textarea5">
               <span className="font-16 font-outfit weight-500 lineh-16 color36 d-inline-block consultingspan margin-b20" style={{ color: '#007DE7' }}>About Us</span>
-              <h2 className="font-outfit font-44 lineh-52 color37 weight-600 margin-b20 aos-init aos-animate" data-aos="fade-right" data-aos-duration="1200" style={{ marginTop: '10px', textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)' }}>Join Our Community</h2>
+              <h2 className="font-outfit font-44 lineh-52 color37 weight-600 margin-b20 aos-init aos-animate" data-aos="fade-right" data-aos-duration="800" style={{ marginTop: '10px', textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)' }}>Join Our Community</h2>
               <p className="font-outfit font-16 lineh-26 weight-400 color38">Build a strong and capable team with our organizational development expertise. From leadership training to talent acquisition strategies, we'll help you create a high-performing workforce.</p>
               <div className="animationcss aos-init aos-animate" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="600">
                 <div className="about5-authorarea margin-t32">
