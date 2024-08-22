@@ -15,29 +15,29 @@ const Value = () => {
                             <h1 className="font-outfit font-40 lineh-52 weight-600 color text-capitalize margin-b20 aos-init" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear" style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', marginTop: "10px", fontFamily: 'inherit' }}>Value That Matters</h1>
                             <p className="font-outfit font-15 lineh-26 weight-400 color-21 margin-b">Our business model revolves around our clients, and we plan around their needs, our primary aim is to make it quick while maintaining quality.</p>
                             <p className="font-outfit font-15 lineh-26 weight-400 color-21">Our internal quality assurance committee have audits at regular intervals to ensure quality at every stage.</p>
-                            <Link to="home" smooth={true} duration={1000} className="font-outfit font-15 lineh-16 weight-700 color themebtn11 d-inline-block margin-t32" id='btnKnow'><span>Know More...</span></Link>
+                            <Link to="services" smooth={true} duration={1000} className="font-outfit font-15 lineh-16 weight-700 color themebtn11 d-inline-block margin-t32" id='btnKnow'><span>Explore us...</span></Link>
                         </div>
                         <div className="col-lg-7">
                             <div className="immigritation-listarea">
                                 <div className="row">
                                     <div className="col-lg-6 aos-init" id='setValue' data-aos="zoom-in" data-aos-duration="800">
                                         <div className="immigrationarea">
-                                            <a href="servicemiddle.html" className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Pay for what you choose</span></a>
+                                            <p  className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Pay for what you choose</span></p>
                                         </div>
                                     </div>
 
                                     <div className="col-lg-6 aos-init" id='setValue' data-aos="zoom-in" data-aos-duration="1000">
                                         <div className="immigrationarea">
-                                            <a href="servicemiddle.html" className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Tailored services
-                                            </span></a>
+                                            <p  className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Tailored services
+                                            </span></p>
                                         </div>
                                     </div>
 
 
                                     <div className="col-lg-6 aos-init" id='setValue' data-aos="zoom-in" data-aos-duration="1200">
                                         <div className="immigrationarea">
-                                            <a href="servicemiddle.html" className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Improves annual efficiency by 11%
-                                            </span></a>
+                                            <p  className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Improves annual efficiency by 11%
+                                            </span></p>
                                         </div>
                                     </div>
 
@@ -45,62 +45,62 @@ const Value = () => {
 
                                     <div className="col-lg-6 aos-init" id='setValue' data-aos="zoom-out" data-aos-duration="1000">
                                         <div className="immigrationarea">
-                                            <a href="servicemiddle.html" className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Detail Oriented (No chance of errors)
-                                            </span></a>
+                                            <p  className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Detail Oriented (No chance of errors)
+                                            </span></p>
                                         </div>
                                     </div>
 
 
                                     <div className="col-lg-6 aos-init" id='setValue' data-aos="zoom-out" data-aos-duration="1200">
                                         <div className="immigrationarea">
-                                            <a href="servicemiddle.html" className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Strong analytical skills
-                                            </span></a>
+                                            <p  className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Strong analytical skills
+                                            </span></p>
                                         </div>
                                     </div>
 
 
                                     <div className="col-lg-6 aos-init" id='setValue' data-aos="zoom-out" data-aos-duration="1400">
                                         <div className="immigrationarea">
-                                            <a href="servicemiddle.html" className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Helping hand in peak seasons
-                                            </span></a>
+                                            <p  className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Helping hand in peak seasons
+                                            </span></p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 aos-init" id='setValue' data-aos="zoom-out" data-aos-duration="1400">
                                         <div className="immigrationarea">
-                                            <a href="servicemiddle.html" className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>7-layer security tool for in-cloud storage
-                                            </span></a>
+                                            <p  className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>7-layer security tool for in-cloud storage
+                                            </span></p>
                                         </div>
                                     </div>
 
                                     <div className="col-lg-6 aos-init" id='setValue' data-aos="zoom-out" data-aos-duration="1400">
                                         <div className="immigrationarea">
-                                            <a href="servicemiddle.html" className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Professionals with years of experience
-                                            </span></a>
+                                            <p  className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Professionals with years of experience
+                                            </span></p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 aos-init" id='setValue' data-aos="zoom-out" data-aos-duration="1400">
                                         <div className="immigrationarea">
-                                            <a href="servicemiddle.html" className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Personalized Recommendations all around the year
-                                            </span></a>
+                                            <p  className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Personalized Recommendations all around the year
+                                            </span></p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 aos-init" id='setValue' data-aos="zoom-out" data-aos-duration="800">
                                         <div className="immigrationarea">
-                                            <a href="servicemiddle.html" className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Leverage costly premium Al technologies
-                                            </span></a>
+                                            <p  className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Leverage costly premium Al technologies
+                                            </span></p>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 aos-init" id='setValue' data-aos="zoom-out" data-aos-duration="1400">
                                         <div className="immigrationarea">
-                                            <a href="servicemiddle.html" className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Compliance management Client feedback loop
-                                            </span></a>
+                                            <p  className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Compliance management Client feedback loop
+                                            </span></p>
                                         </div>
                                     </div>
 
                                     <div className="col-lg-6 aos-init" id='setValue' data-aos="zoom-in" data-aos-duration="1400">
                                         <div className="immigrationarea">
-                                            <a href="servicemiddle.html" className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Get a dedicated manager for your operations
-                                            </span></a>
+                                            <p  className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span><span className='giveMarg'>Get a dedicated manager for your operations
+                                            </span></p>
                                         </div>
                                     </div>
                                 </div>

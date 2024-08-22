@@ -110,7 +110,7 @@ span.aropaln2{
     transform: translateY(-5px);
   }
 
-  #setValue:hover .immigrationarea a{
+  #setValue:hover .immigrationarea p{
     color: white;
     transition: all .4s ease-in-out;
   }

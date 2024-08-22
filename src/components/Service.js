@@ -40,7 +40,7 @@ const Service = () => {
                   <img src={value1} width={'34px'} height={'34px'} alt="" />
                 </div>
                 <div className="workstext">
-                  <a href="servicemiddle.html" className="font-outfit font-24 weight-600 color37 margin-b14 lineh-26 d-inline-block ts">Quest</a>
+                  <p  className="font-outfit font-24 weight-600 color37 margin-b14 lineh-26 d-inline-block ts">Quest</p>
                   <p className="font-outfit font-16 weight-400 lineh-26 color38 ts">At Quick Accounting we always quest for technology, innovation and new ways to reduce service delivery time. Our unique culture is crafted to have curious employees for quality.</p>
                 </div>
               </div>
@@ -50,7 +50,7 @@ const Service = () => {
                   <img src={value2} width={'34px'} height={'34px'} alt="" />
                 </div>
                 <div className="workstext">
-                  <a href="servicemiddle.html" className="font-outfit font-24 weight-600 color37 margin-b14 lineh-26 d-inline-block ts">Uniqueness</a>
+                  <p  className="font-outfit font-24 weight-600 color37 margin-b14 lineh-26 d-inline-block ts">Uniqueness</p>
                   <p className="font-outfit font-16 weight-400 lineh-26 color38 ts">We believe in doing things differently. Our years of experience makes us know the importance of unique services. We experiment with new things each day so you can have quick information.</p>
                 </div>
               </div>
@@ -60,7 +60,7 @@ const Service = () => {
                   <img src={value3} width={'34px'} height={'34px'} alt="" />
                 </div>
                 <div className="workstext">
-                  <a href="servicemiddle.html" className="font-outfit font-24 weight-600 color37 margin-b14 lineh-26 d-inline-block ts">Integrity</a>
+                  <p  className="font-outfit font-24 weight-600 color37 margin-b14 lineh-26 d-inline-block ts">Integrity</p>
                   <p className="font-outfit font-16 weight-400 lineh-26 color38 ts">Support from stakeholders is equally important and thus the treatment. We integrate with our employees and treat them equally. Our culture ensures accountability and reliability to our employees for trusted and consistent services.</p>
                 </div>
               </div>
@@ -70,7 +70,7 @@ const Service = () => {
                   <img src={value4} width={'34px'} height={'34px'} alt="" />
                 </div>
                 <div className="workstext">
-                  <a href="servicemiddle.html" className="font-outfit font-24 weight-600 color37 margin-b14 lineh-26 d-inline-block ts" >Customer Centric</a>
+                  <p  className="font-outfit font-24 weight-600 color37 margin-b14 lineh-26 d-inline-block ts" >Customer Centric</p>
                   <p className="font-outfit font-16 weight-400 lineh-26 color38 ts">Our business model is been designed around clients to provide them with both what they want and what the market demands. We are good advisors as well.</p>
                 </div>
               </div>
@@ -80,7 +80,7 @@ const Service = () => {
                   <img src={value5} width={'34px'} height={'34px'} alt="" />
                 </div>
                 <div className="workstext">
-                  <a href="servicemiddle.html" className="font-outfit font-24 weight-600 color37 margin-b14 lineh-26 d-inline-block ts">Knowledge</a>
+                  <p  className="font-outfit font-24 weight-600 color37 margin-b14 lineh-26 d-inline-block ts">Knowledge</p>
                   <p className="font-outfit font-16 weight-400 lineh-26 color38 ts">Knowledge is the great power of all, and our unique training models and employee development ensure that our employees are well-equipped with new laws, employee skills, technical information, market trends and more.</p>
                 </div>
               </div>

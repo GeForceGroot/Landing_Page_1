@@ -36,7 +36,7 @@ const Footer = () => {
                         <div className="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-left" data-aos-duration="1200" id='setFooter' >
                             <div className="footer-contact">
                                 <h2 className="footer-title">Contact Us</h2>
-                                <div className="footer-contact-info">
+                                <div className="footer-contact-info" style={{marginTop:"50px"}}>
                                     <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" alt="Email" className="footer-icon" />
                                     <a href="mailto:info@cleveraccounting.com" className="footer-contact-link">
                                         Info@cadbookkeeping.ca
