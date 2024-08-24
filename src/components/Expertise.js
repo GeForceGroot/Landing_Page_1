@@ -26,7 +26,7 @@ const Expertise = () => {
                                     <img src={img1} width={'38px'} height={'38px'} alt="" className="ts"/>
                                 </div>
                                 <p  className="font-20 lineh-20 weight-600 color39 d-inline-block margin-b14 font-lora ts">Affordable Rates</p>
-                                <p className="font-16 weight-500 font-ks colorhp1 lineh-26 ts">Proper asset management and timely completion save us money, which we transfer to you as profits.</p>
+                                <p className="font-16 weight-500 font-ks colorhp1 lineh-26 ts">Proper asset management and timely completion save us money in areas such as reduced maintenance costs, improved asset utilization, decreased downtime, and avoided penalties for late delivery.</p>
                             </div>
                         </div>
 
@@ -36,7 +36,7 @@ const Expertise = () => {
                                     <img src={img2} width={'38px'} height={'38px'} alt="" className="ts"/>
                                 </div>
                                 <p  className="font-20 lineh-20 weight-600 color39 d-inline-block margin-b14 font-lora ts">Client-Oriented</p>
-                                <p className="font-16 weight-500 font-ks colorhp1 lineh-26 ts">Our values make us to revolve around client needs and objectives. We do not create services and adjust them as per client. Our services are created for you.</p>
+                                <p className="font-16 weight-500 font-ks colorhp1 lineh-26 ts">Our values make us revolve around our clients' needs and objectives. We do not create services and then adjust them to fit the client. Our services are specifically designed for you.</p>
                             </div>
                         </div>
 

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import sidelogo from '../images/elementor17.png'
-import mainImg from '../images/about5images.png'
+import mainImg from '../images/bookkeeping-san-diego (2).png'
 import cehck from '../images/check1.png'
 import '../style/contact.css';
 import '../style/navbar.css';

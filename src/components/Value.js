@@ -74,7 +74,7 @@ const Value = () => {
                                                 <span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span>
                                             </div>
                                             <div className='col-10'>
-                                                <p className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className='giveMarg'>Improves annual efficiency by 11%
+                                                <p className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className='giveMarg'>Improves annual efficiency by<br/> 11%
                                                 </span></p>
                                             </div>
                                         </div>
@@ -114,7 +114,7 @@ const Value = () => {
                                                 <span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span>
                                             </div>
                                             <div className='col-10'>
-                                                <p className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className='giveMarg'>Professionals with years of experience
+                                                <p className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className='giveMarg'>Professionals with 14 years<br/> of experience
                                                 </span></p>
                                             </div>
                                         </div>
@@ -125,7 +125,7 @@ const Value = () => {
                                                 <span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span>
                                             </div>
                                             <div className='col-10'>
-                                                <p className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className='giveMarg'>Personalized Recommendations all around the year
+                                                <p className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className='giveMarg'>Personalized support whole<br/> year
                                                 </span></p>
                                             </div>
                                         </div>
