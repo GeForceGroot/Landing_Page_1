@@ -56,9 +56,6 @@ const Counter = () => {
                     >
                         Beyond Trends Towards Setting New Standards
                     </h1>
-                    <p className="font-ks font-16 lineh-26 weight-500 color-30 " style={{ fontFamily: 'inherit' }}>
-                        <strong>Consultancy Services: </strong>Don't want to outsource the whole process? No worries get the best strategies and recommendations based on AI-based market analysis to have the best actions before rivals.
-                    </p>
                     <div className="row" style={{ marginTop: '50px' }}>
                         <div className="col-lg-3 col-md-6 aos-init aos-animate" id='colMargin' data-aos="zoom-in" data-aos-duration="800">
                             <div className="countre2-boxarea text-center">

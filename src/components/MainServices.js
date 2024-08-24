@@ -13,6 +13,7 @@ import img7 from '../images/g.png'
 import img8 from '../images/a.png'
 import img9 from '../images/st.png'
 import img10 from '../images/cs.svg'
+import img11 from '../images/payroll.png'
 
 const MainServices = () => {
 
@@ -46,10 +47,11 @@ const MainServices = () => {
                                 </div>
                                 <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" >Outsourcing services</p>
                                 <ul className="listStyle">
-                                    <li>Have extra hands for payment processing</li>
-                                    <li>Maintaining vendor master data Process journal entries</li>
-                                    <li>Bank reconciliations Record tax accounting</li>
+                                    <li>Have extra hands for payment processing
+                                    </li>
+                                    <li>Bank reconciliations </li>
                                     <li>get detailed and graphical reports</li>
+                                    <li>Maintaining vendor master data Process journal entries</li>
                                 </ul>
                             </div>
                         </div>
@@ -116,10 +118,10 @@ const MainServices = () => {
                                 </div>
                                 <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Governance And Compliance</p>
                                 <ul className="listStyle">
+                                    <li>Adheres to local laws</li>
                                     <li>International alliance with CPAs and CAs</li>
-                                    <li>Adheres to local laws and industrial standards</li>
+                                    <li>Follows ethical workplace culture</li>
                                     <li>Provides clear formats to reduce headaches at year-end</li>
-                                    <li>Follows ethical workplace culture</li>
                                 </ul>
                             </div>
                         </div>
@@ -155,7 +157,7 @@ const MainServices = () => {
                                     <li>Automated data fetch</li>
                                     <li>AI-based data segregation</li>
                                     <li>Data analysis and reporting</li>
-                                    <li>Cloud-based storage with additional security</li>
+                                    <li>Cloud-based storage</li>
                                 </ul>
                             </div>
                         </div>
@@ -234,15 +236,15 @@ const MainServices = () => {
                                 <div className="welcome-ellipsbox ts">
                                     
                                     <div className="elips-icon6 ts">
-                                        <img src={img10} width={'38px'} height={'38px'} alt="" className="ts" style={{ textAlign: 'center' }} />
+                                        <img src={img11} width={'38px'} height={'38px'} alt="" className="ts" style={{ textAlign: 'center' }} />
                                     </div>
                                 </div>
-                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Contracted Services</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Payroll</p>
                                 <ul className="listStyle">
-                                    <li>Affordable prices</li>
-                                    <li>Experienced professionals</li>
-                                    <li>Get helping hands in peak seasons</li>
-                                    <li>One-stop solution for all your<br />needs</li>
+                                    <li>Compliance and reporting</li>
+                                    <li>Wage and salary calculation</li>
+                                    <li>Time and attendance tracking</li>
+                                    <li>Cheque generation and<br/> distribution</li>
                                 </ul>
                             </div>
                         </div>

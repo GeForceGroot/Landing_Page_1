@@ -47,7 +47,7 @@ const Expertise = () => {
                                     <img src={img3} width={'38px'} height={'38px'} alt="" className="ts"/>
                                 </div>
                                 <p  className="font-20 lineh-20 weight-600 color39 d-inline-block margin-b14 font-lora ts">Experience</p>
-                                <p className="font-16 weight-500 font-ks colorhp1 lineh-26 ts">Years of experience from diverse industries make us unique in that resolve your basic issues and make your business agile to external market trends for better adaptation.</p>
+                                <p className="font-16 weight-500 font-ks colorhp1 lineh-26 ts">Years of experience from diverse industries make us unique in that resolve your basic issues and make your business agile to external market trends.</p>
                             </div>
                         </div>
 
@@ -58,7 +58,7 @@ const Expertise = () => {
                                     <img src={img4} width={'38px'} height={'38px'} alt="" className="ts"/>
                                 </div>
                                 <p  className="font-20 lineh-20 weight-600 color39 d-inline-block margin-b14 font-lora ts">Leveraging Technology</p>
-                                <p className="font-16 weight-500 font-ks colorhp1 lineh-26 ts">Technology is our core focus, and we leverage technology and spend more so that you do not have to. Get the latest features, and tools and save your time to core service.</p>
+                                <p className="font-16 weight-500 font-ks colorhp1 lineh-26 ts">Technology is our core focus, and we leverage technology and spend more so that you do not have to. Get the latest features, and tools and save your time.</p>
                             </div>
                         </div>
 
