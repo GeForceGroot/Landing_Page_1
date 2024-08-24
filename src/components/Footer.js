@@ -27,7 +27,7 @@ const Footer = () => {
                             <div className="footer-links aos-init aos-animate" data-aos="zoom-in" data-aos-duration="1200">
                                 <h2 className="footer-title">Links</h2>
                                 <ul style={{ marginTop: '60px' }}>
-                                    <li><Link to="about-us" smooth={true} duration={1000} className="footer-link" style={{cursor:'pointer'}}>About Us</Link></li>
+                                    <li><Link to="about-us" smooth={true} duration={1000} className="footer-link" style={{ cursor: 'pointer' }}>About Us</Link></li>
                                     <li><Link to="services" smooth={true} duration={1000} className="footer-link">Service</Link></li>
                                     <li><Link to="home" smooth={true} duration={1000} className="footer-link">Contact Us</Link></li>
                                 </ul>
@@ -36,10 +36,10 @@ const Footer = () => {
                         <div className="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-left" data-aos-duration="1200" id='setFooter' >
                             <div className="footer-contact">
                                 <h2 className="footer-title">Contact Us</h2>
-                                <div className="footer-contact-info" style={{marginTop:"50px"}}>
+                                <div className="footer-contact-info" style={{ marginTop: "50px" }}>
                                     <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" alt="Email" className="footer-icon" />
                                     <a href="mailto:info@cleveraccounting.com" className="footer-contact-link">
-                                        Info@cadbookkeeping.ca
+                                        Info@quickaccounting.com
                                     </a>
                                 </div>
                                 <div className="footer-contact-info">
