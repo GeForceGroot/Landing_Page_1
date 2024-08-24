@@ -67,7 +67,7 @@ const MainServices = () => {
                                 <ul className="listStyle">
                                     <li>Detailed recordings</li>
                                     <li>Records all information</li>
-                                    <li>Automated data recording from multiple sources</li>
+                                    <li>Automated data recording, collection, and integration from multiple sources.</li>
                                     <li>Record reconciliations </li>
                                 </ul>
                             </div>
@@ -157,7 +157,7 @@ const MainServices = () => {
                                     <li>Automated data fetch</li>
                                     <li>AI-based data segregation</li>
                                     <li>Data analysis and reporting</li>
-                                    <li>Cloud-based storage</li>
+                                    <li>Cloud-based storage with additional security</li>
                                 </ul>
                             </div>
                         </div>
@@ -191,7 +191,7 @@ const MainServices = () => {
                                 <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" >Processing Services</p>
                                 <ul className="listStyle">
                                     <li>Timely Pay</li>
-                                    <li>Accurate calculations considering</li>
+                                    <li>Accurate calculations considering diverse needs </li>
                                     <li>Premium portal access</li>
                                     <li>CPC & EI details</li>
                                 </ul>
