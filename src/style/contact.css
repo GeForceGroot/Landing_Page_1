@@ -90,12 +90,15 @@ button[type="submit"] {
   input[type="email"],
   input[type="tel"] {
     /* Adjust width for smaller screens */
-    width: 150px;
+    width: 415px;
     /* Subtract label width */
   }
 
   .midContac {
     display: none;
+  }
+  #makeBlock{
+    display: block;
   }
 
 }
@@ -460,3 +463,23 @@ span.consultingspan {
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
 }
 
+
+@media (max-width:1050px) {
+  #resposniveCaro{
+    display: block;
+  }  
+  #rowReverse{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .about5ims{
+    margin-top: 50px;
+  }
+  #centerData{
+    text-align: center;
+  }
+  .consultingspan{
+    margin-bottom: 0px;
+  }
+}

@@ -20,12 +20,13 @@ span.about10span{
     transition: all .4s ease-in-out;
 }
 
-.welcome-ellipsbox{
+.welcome-ellipsbox {
     position: relative;
     margin-bottom: 24px;
+    margin-top: 25px;
 }
 
-.elips-icon6{
+.elips-icon6 {
     background: #6083A9;
     display: inline-block;
     height: 72px;
@@ -34,9 +35,11 @@ span.about10span{
     text-align: center;
     border-radius: 50%;
     position: absolute;
-    left: 152px;
-    top: 9px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
 
 .margin-b{
     margin-bottom: 16px;

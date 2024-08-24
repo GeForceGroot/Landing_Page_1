@@ -40,12 +40,11 @@ const MainServices = () => {
                         <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
                                     <div className="elips-icon6 ts">
                                         <img src={img1} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <p  className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" >Outsourcing services</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" >Outsourcing services</p>
                                 <ul className="listStyle">
                                     <li>Have extra hands for payment processing</li>
                                     <li>Maintaining vendor master data Process journal entries</li>
@@ -57,12 +56,12 @@ const MainServices = () => {
                         <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    
                                     <div className="elips-icon6 ts">
                                         <img src={logo} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <p  className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Bookkeeping</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Bookkeeping</p>
                                 <ul className="listStyle">
                                     <li>Detailed recordings</li>
                                     <li>Records all information</li>
@@ -74,12 +73,12 @@ const MainServices = () => {
                         <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    
                                     <div className="elips-icon6 ts">
                                         <img src={img9} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <p  className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Gst/Hst</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Gst/Hst</p>
                                 <ul className="listStyle">
                                     <li>T1 to T5 tax filings</li>
                                     <li>Maintain your presence and<br />records</li>
@@ -92,12 +91,12 @@ const MainServices = () => {
                         <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    
                                     <div className="elips-icon6 ts">
                                         <img src={img8} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <p  className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Audits And Financial Reviews</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Audits And Financial Reviews</p>
                                 <ul className="listStyle">
                                     <li>Follows recognised audit procedures</li>
                                     <li>Internal and External audits</li>
@@ -110,12 +109,12 @@ const MainServices = () => {
                         <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    
                                     <div className="elips-icon6 ts">
                                         <img src={img7} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <p  className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Governance And Compliance</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Governance And Compliance</p>
                                 <ul className="listStyle">
                                     <li>International alliance with CPAs and CAs</li>
                                     <li>Adheres to local laws and industrial standards</li>
@@ -128,12 +127,12 @@ const MainServices = () => {
                         <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    
                                     <div className="elips-icon6 ts">
                                         <img src={img6} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <p  className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Tax Planning And Filing</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Tax Planning And Filing</p>
                                 <ul className="listStyle">
                                     <li>Get strategic and tactical advice for tax<br /> planning</li>
                                     <li>Save more with Quick Accounting</li>
@@ -146,12 +145,12 @@ const MainServices = () => {
                         <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    
                                     <div className="elips-icon6 ts">
                                         <img src={img5} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <p  className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Data Management Solutions</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Data Management Solutions</p>
                                 <ul className="listStyle">
                                     <li>Automated data fetch</li>
                                     <li>AI-based data segregation</li>
@@ -164,12 +163,12 @@ const MainServices = () => {
                         <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    
                                     <div className="elips-icon6 ts">
                                         <img src={img4} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <p  className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Revenue Projections</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Revenue Projections</p>
                                 <ul className="listStyle">
                                     <li>Accurate resource allocations with AI</li>
                                     <li>Market analysis</li>
@@ -182,31 +181,29 @@ const MainServices = () => {
                         <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    
                                     <div className="elips-icon6 ts">
                                         <img src={img3} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <p  className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" >Processing Services</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" >Processing Services</p>
                                 <ul className="listStyle">
                                     <li>Timely Pay</li>
-                                    <li>Accurate calculations considering diverse needs</li>
+                                    <li>Accurate calculations considering</li>
                                     <li>Premium portal access</li>
                                     <li>CPC & EI details</li>
                                 </ul>
                             </div>
                         </div>
-
-                        <div className="col-lg-2 col-md-2 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear"></div>
                         <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    
                                     <div className="elips-icon6 ts">
                                         <img src={img2} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <p  className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">E-Accountants</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">E-Accountants</p>
                                 <ul className="listStyle">
                                     <li>Get experienced accounts from the same industry for extra care</li>
                                     <li>Get one at your doorstep</li>
@@ -218,12 +215,12 @@ const MainServices = () => {
                         <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
-                                    <img src="assets/images/elementor/elementor64.png" alt="" className="keyframe3 ts" />
+                                    
                                     <div className="elips-icon6 ts">
                                         <img src={img10} width={'38px'} height={'38px'} alt="" className="ts" style={{ textAlign: 'center' }} />
                                     </div>
                                 </div>
-                                <p  className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Contracted Services</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Contracted Services</p>
                                 <ul className="listStyle">
                                     <li>Affordable prices</li>
                                     <li>Experienced professionals</li>
@@ -232,7 +229,23 @@ const MainServices = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-2 col-md-2 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear"></div>
+                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
+                            <div className="service10-boxarea text-center">
+                                <div className="welcome-ellipsbox ts">
+                                    
+                                    <div className="elips-icon6 ts">
+                                        <img src={img10} width={'38px'} height={'38px'} alt="" className="ts" style={{ textAlign: 'center' }} />
+                                    </div>
+                                </div>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Contracted Services</p>
+                                <ul className="listStyle">
+                                    <li>Affordable prices</li>
+                                    <li>Experienced professionals</li>
+                                    <li>Get helping hands in peak seasons</li>
+                                    <li>One-stop solution for all your<br />needs</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
