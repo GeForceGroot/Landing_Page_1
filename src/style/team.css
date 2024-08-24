@@ -90,11 +90,9 @@
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+
 @media (max-width:800px) {
-  #temaCol {
-    display: flex;
-    flex-direction: column-reverse;
-  }
+
   #kaushikImg{
     margin-top: 45px;
   }
