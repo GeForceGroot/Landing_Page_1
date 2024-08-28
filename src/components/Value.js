@@ -62,7 +62,7 @@ const Value = () => {
                                                 <span className="ts"><div className="author0mages"> <img src={cehck} alt="" className="ts" /></div></span>
                                             </div>
                                             <div className='col-10'>
-                                                <p className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className='giveMarg'>Helping hand in peak seasons
+                                                <p className="font-15 font-outfit lineh-16 weight-600 color ts" id='changeColor'><span className='giveMarg'>Helping in peak seasons
                                                 </span></p>
                                             </div>
                                         </div>
