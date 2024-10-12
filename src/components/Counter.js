@@ -57,7 +57,7 @@ const Counter = () => {
                         Beyond Trends Towards Setting New Standards
                     </h1>
                     <div className="row" style={{ marginTop: '50px' }}>
-                        <div className="col-lg-3 col-md-6 aos-init aos-animate" id='colMargin' data-aos="zoom-in" data-aos-duration="800">
+                        <div className="col-lg-3 col-md-6" id='colMargin'>
                             <div className="countre2-boxarea text-center">
                                 <div className="counter-box">
                                     <h1 className="font-outfit font-44 lineh-52 color-17 weight-600">
@@ -67,7 +67,7 @@ const Counter = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 aos-init aos-animate" id='colMargin' data-aos="zoom-in" data-aos-duration="1000">
+                        <div className="col-lg-3 col-md-6" id='colMargin'>
                             <div className="countre2-boxarea text-center">
                                 <div className="counter-box">
                                     <h1 className="font-outfit font-44 lineh-52 color-17 weight-600">
@@ -77,7 +77,7 @@ const Counter = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 aos-init aos-animate" id='colMargin' data-aos="zoom-in" data-aos-duration="1200">
+                        <div className="col-lg-3 col-md-6" id='colMargin'>
                             <div className="countre2-boxarea text-center">
                                 <div className="counter-box">
                                     <h1 className="font-outfit font-44 lineh-52 color-17 weight-600">
@@ -87,7 +87,7 @@ const Counter = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 aos-init aos-animate" id='colMargin' data-aos="zoom-in" data-aos-duration="1400">
+                        <div className="col-lg-3 col-md-6" id='colMargin'>
                             <div className="countre2-boxarea text-center">
                                 <div className="counter-box">
                                     <h1 className="font-outfit font-44 lineh-52 color-17 weight-600">

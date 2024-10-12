@@ -1,30 +1,19 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import '../style/mainservices.css'
-import logo from '../images/b.png'
-import img1 from '../images/4720378.png'
-import img2 from '../images/1.png'
-import img3 from '../images/s.png'
-import img4 from '../images/r.png'
-import img5 from '../images/d.png'
-import img6 from '../images/e.png'
-import img7 from '../images/g.png'
-import img8 from '../images/a.png'
-import img9 from '../images/st.png'
-import img10 from '../images/cs.svg'
-import img11 from '../images/payroll.png'
+import React from 'react';
+import '../style/mainservices.css';
+import logo from '../images/b.png';
+import img1 from '../images/4720378.png';
+import img2 from '../images/1.png';
+import img3 from '../images/s.png';
+import img4 from '../images/r.png';
+import img5 from '../images/d.png';
+import img6 from '../images/e.png';
+import img7 from '../images/g.png';
+import img8 from '../images/a.png';
+import img9 from '../images/st.png';
+import img10 from '../images/cs.svg';
+import img11 from '../images/payroll.png';
 
 const MainServices = () => {
-
-    useEffect(() => {
-        AOS.init({
-            duration: 800, // Global duration for animations
-            easing: 'linear',
-            once: false, // Animation happens every time the element enters the viewport
-        });
-        AOS.refresh(); // Refresh AOS to ensure it detects changes in the DOM
-    }, []);
     return (
         <>
             <div className="service10-section-area section-padding8">
@@ -38,213 +27,145 @@ const MainServices = () => {
                         </div>
                     </div>
                     <div className="row" style={{ marginTop: '50px' }}>
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
+                        <div className="col-lg-4 col-md-6">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
                                     <div className="elips-icon6 ts">
                                         <img src={img1} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" >Outsourcing services</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Outsourcing</p>
                                 <ul className="listStyle">
-                                    <li>Have extra hands for payment processing
-                                    </li>
-                                    <li>Bank reconciliations </li>
-                                    <li>get detailed and graphical reports</li>
-                                    <li>Maintaining vendor master data Process journal entries</li>
+                                    <li>Bookkeeping and Year-end finalization</li>
+                                    <li>Sales tax (GST/PST/HST) preparation and filing</li>
+                                    <li>Accounts Receivable/Payable Management</li>
+                                    <li>Tax return preparation, review and filing"</li>
+                                    <li>Payroll preparation and filing</li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
+                        <div className="col-lg-4 col-md-6">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
-                                    
                                     <div className="elips-icon6 ts">
                                         <img src={logo} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
                                 <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Bookkeeping</p>
                                 <ul className="listStyle">
-                                    <li>Detailed recordings</li>
-                                    <li>Records all information</li>
-                                    <li>Automated data recording, collection, and integration from multiple sources.</li>
-                                    <li>Record reconciliations </li>
+                                    <li>Entry of Bills, Invoices and Payroll reports</li>
+                                    <li>Record Bank and Credit Card transactions</li>
+                                    <li>Bookkeeping Review and Management reports</li>
+                                    <li>Bank and credit card reconciliations</li>
+                                    <li>Promptly address client Queries</li>
+                                    <li>US tax returns- 1040, 1065, 1120 and 1120s</li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
+                        <div className="col-lg-4 col-md-6">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
-                                    
                                     <div className="elips-icon6 ts">
                                         <img src={img9} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Gst/Hst</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Sales tax</p>
                                 <ul className="listStyle">
-                                    <li>T1 to T5 tax filings</li>
-                                    <li>Maintain your presence and<br />records</li>
-                                    <li>Support to manage fines</li>
-                                    <li>Timely filing and record-keeping  </li>
+                                    <li>Record every transactions</li>
+                                    <li>Cross-check transactions</li>
+                                    <li>Verify credits and exemptions</li>
+                                    <li>Ensure accurate, timely filing</li>
+                                    <li>Stay compliant with regulations</li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
+                        <div className="col-lg-4 col-md-6">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
-                                    
                                     <div className="elips-icon6 ts">
                                         <img src={img8} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Audits And Financial Reviews</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Payroll - US</p>
                                 <ul className="listStyle">
-                                    <li>Follows recognised audit procedures</li>
-                                    <li>Internal and External audits</li>
-                                    <li>Avoid legal fines</li>
-                                    <li>We represent your business to external authorities</li>
+                                    <li>Time and Attendance verifying</li>
+                                    <li>Paystub of hourly & salaried based staff</li>
+                                    <li>Direct deposit and Tax withholding filing</li>
+                                    <li>US tax returns- 1040, 1065, 1120 and 1120s</li>
+                                    <li>Payroll Reconciliation at year-end</li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
+                        <div className="col-lg-4 col-md-6">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
-                                    
                                     <div className="elips-icon6 ts">
                                         <img src={img7} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Governance And Compliance</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Accounts Payable/Receivable</p>
                                 <ul className="listStyle">
-                                    <li>Adheres to local laws</li>
-                                    <li>International alliance with CPAs and CAs</li>
-                                    <li>Follows ethical workplace culture</li>
-                                    <li>Provides clear formats to reduce headaches at year-end</li>
+                                    <li>Record Vendor bill and Customer Invoice</li>
+                                    <li>Payment processing for Bill and Invoice</li>
+                                    <li>Vendor reconciliations and reports</li>
+                                    <li>Automation and Technology Integration</li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
+                        <div className="col-lg-4 col-md-6">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
-                                    
                                     <div className="elips-icon6 ts">
                                         <img src={img6} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Tax Planning And Filing</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Tax - US</p>
                                 <ul className="listStyle">
-                                    <li>Get strategic and tactical advice for tax<br /> planning</li>
-                                    <li>Save more with Quick Accounting</li>
-                                    <li>Complies with all laws</li>
-                                    <li>Working CPAs at your service  </li>
+                                    <li>Audit Representation</li>
+                                    <li>Avoiding fines & interests</li>
+                                    <li>Tax Planning Strategies & Expert Advice</li>
+                                    <li>US tax returns- 1040, 1065, 1120 and 1120s</li>
                                 </ul>
                             </div>
                         </div>
+                        
+                        <div className="col-lg-2"></div>
 
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
+                        <div className="col-lg-4 col-md-6">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
-                                    
                                     <div className="elips-icon6 ts">
                                         <img src={img5} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Data Management Solutions</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Business consulting & CFO</p>
                                 <ul className="listStyle">
-                                    <li>Automated data fetch</li>
-                                    <li>AI-based data segregation</li>
-                                    <li>Data analysis and reporting</li>
-                                    <li>Cloud-based storage with additional security</li>
+                                    <li>Strategic Financial Planning & Analysis</li>
+                                    <li>Cash Flow Management & Forecasting</li>
+                                    <li>Budgeting & Financial Reporting</li>
+                                    <li>Business Performance Improvement</li>
+                                    <li>Risk Management & Compliance</li>
                                 </ul>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
+                        <div className="col-lg-4 col-md-6">
                             <div className="service10-boxarea text-center">
                                 <div className="welcome-ellipsbox ts">
-                                    
                                     <div className="elips-icon6 ts">
                                         <img src={img4} width={'38px'} height={'38px'} alt="" className="ts" />
                                     </div>
                                 </div>
-                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Revenue Projections</p>
+                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Financial planning</p>
                                 <ul className="listStyle">
-                                    <li>Accurate resource allocations with AI</li>
-                                    <li>Market analysis</li>
-                                    <li>Custom projections</li>
-                                    <li>Graphical reports for decision-making</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
-                            <div className="service10-boxarea text-center">
-                                <div className="welcome-ellipsbox ts">
-                                    
-                                    <div className="elips-icon6 ts">
-                                        <img src={img3} width={'38px'} height={'38px'} alt="" className="ts" />
-                                    </div>
-                                </div>
-                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts" >Processing Services</p>
-                                <ul className="listStyle">
-                                    <li>Timely Pay</li>
-                                    <li>Accurate calculations considering diverse needs </li>
-                                    <li>Premium portal access</li>
-                                    <li>CPC & EI details</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
-                            <div className="service10-boxarea text-center">
-                                <div className="welcome-ellipsbox ts">
-                                    
-                                    <div className="elips-icon6 ts">
-                                        <img src={img2} width={'38px'} height={'38px'} alt="" className="ts" />
-                                    </div>
-                                </div>
-                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">E-Accountants</p>
-                                <ul className="listStyle">
-                                    <li>Get experienced accounts from the same industry for extra care</li>
-                                    <li>Get one at your doorstep</li>
-                                    <li>Affordable fees</li>
-                                    <li>Reduce errors and ensure compliance</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
-                            <div className="service10-boxarea text-center">
-                                <div className="welcome-ellipsbox ts">
-                                    
-                                    <div className="elips-icon6 ts">
-                                        <img src={img10} width={'38px'} height={'38px'} alt="" className="ts" style={{ textAlign: 'center' }} />
-                                    </div>
-                                </div>
-                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Contracted Services</p>
-                                <ul className="listStyle">
-                                    <li>Affordable prices</li>
-                                    <li>Experienced professionals</li>
-                                    <li>Get helping hands in peak seasons</li>
-                                    <li>One-stop solution for all your<br />needs</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 aos-init" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="linear">
-                            <div className="service10-boxarea text-center">
-                                <div className="welcome-ellipsbox ts">
-                                    
-                                    <div className="elips-icon6 ts">
-                                        <img src={img11} width={'38px'} height={'38px'} alt="" className="ts" style={{ textAlign: 'center' }} />
-                                    </div>
-                                </div>
-                                <p className="font-lora font-24 weight-600 colorhp3 d-inline-block margin-b ts">Payroll</p>
-                                <ul className="listStyle">
-                                    <li>Compliance and reporting</li>
-                                    <li>Wage and salary calculation</li>
-                                    <li>Time and attendance tracking</li>
-                                    <li>Cheque generation and<br/> distribution</li>
+                                    <li>Creating a roadmap for financial security</li>
+                                    <li>Building and managing investment portfolios</li>
+                                    <li>Retirement planning and wealth management</li>
+                                    <li>Developing tax strategies</li>
+                                    <li>Estate planning and charitable giving</li>
                                 </ul>
                             </div>
                         </div>
@@ -252,7 +173,7 @@ const MainServices = () => {
                 </div>
             </div>
         </>
-    )
-}
+    );
+};
 
-export default MainServices
+export default MainServices;

@@ -1,6 +1,4 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React from 'react';
 import '../style/service.css';
 import value2 from '../images/6955960.webp';
 import value1 from '../images/5213375.png';
@@ -9,30 +7,23 @@ import value5 from '../images/8629253.png';
 import value4 from '../images/75-757195_customer-clipart-end-user-customer-blue-icon-png.png';
 
 const Service = () => {
-  useEffect(() => {
-    AOS.init({
-      once: false, // Animation will repeat when elements re-enter the viewport
-      mirror: true, // Elements animate out when scrolling past them
-    });
-  }, []);
-
   return (
     <>
       <div className="company5-section-area section-padding5" style={{ backgroundColor: '#EEF7FF', marginTop: "50px" }}>
         <div className="container">
           <span className="font-16 font-outfit weight-500 lineh-16 color36 d-inline-block consultingspan margin-b20">How We Works</span>
           <div className="row align-items-centers">
-            <div className="col-lg-6" id='removeCol' >
+            <div className="col-lg-6" id='removeCol'>
               <div className="works5-sectino">
-                <p style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '100px' }} className="font-outfit font-44 lineh-52 color37 weight-600 margin-b20" data-aos="fade-right" data-aos-duration="1200">Q</p>
-                <p style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '100px', marginTop: "70px" }} className="font-outfit font-44 lineh-52 color37 weight-600 margin-b20" data-aos="fade-right" data-aos-duration="1200">U</p>
-                <p style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '100px', marginTop: '70px' }} className="font-outfit font-44 lineh-52 color37 weight-600 margin-b20" data-aos="fade-right" data-aos-duration="1200">I</p>
-                <p style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '100px', marginTop: '70px' }} className="font-outfit font-44 lineh-52 color37 weight-600 margin-b20" data-aos="fade-right" data-aos-duration="1200">C</p>
-                <p style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '100px', marginTop: '70px' }} className="font-outfit font-44 lineh-52 color37 weight-600 margin-b20" data-aos="fade-right" data-aos-duration="1200">K</p>
+                <p style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '100px' }} className="font-outfit font-44 lineh-52 color37 weight-600 margin-b20">Q</p>
+                <p style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '100px', marginTop: "70px" }} className="font-outfit font-44 lineh-52 color37 weight-600 margin-b20">U</p>
+                <p style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '100px', marginTop: '70px' }} className="font-outfit font-44 lineh-52 color37 weight-600 margin-b20">I</p>
+                <p style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '100px', marginTop: '70px' }} className="font-outfit font-44 lineh-52 color37 weight-600 margin-b20">C</p>
+                <p style={{ textShadow: '4px 4px 5px rgba(0, 0, 0, 0.3)', color: 'rgba(32, 64, 99, 0.8)', fontSize: '100px', marginTop: '70px' }} className="font-outfit font-44 lineh-52 color37 weight-600 margin-b20">K</p>
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="works-servicearea margin-b30 equel" id='setColor' data-aos="fade-right" data-aos-duration="1000">
+              <div className="works-servicearea margin-b30 equel" id='setColor'>
                 <div className="worksicons5">
                   <img src={value1} width={'34px'} height={'34px'} alt="" />
                 </div>
@@ -42,7 +33,7 @@ const Service = () => {
                 </div>
               </div>
 
-              <div className="works-servicearea margin-b30" id='setColor' data-aos="fade-right" data-aos-duration="1200">
+              <div className="works-servicearea margin-b30" id='setColor'>
                 <div className="worksicons5">
                   <img src={value2} width={'34px'} height={'34px'} alt="" />
                 </div>
@@ -52,7 +43,7 @@ const Service = () => {
                 </div>
               </div>
 
-              <div className="works-servicearea" data-aos="fade-right" id='setColor' data-aos-duration="1400">
+              <div className="works-servicearea" id='setColor'>
                 <div className="worksicons5">
                   <img src={value3} width={'34px'} height={'34px'} alt="" />
                 </div>
@@ -62,17 +53,17 @@ const Service = () => {
                 </div>
               </div>
 
-              <div className="works-servicearea" id='setColor' data-aos="fade-right" data-aos-duration="1400">
+              <div className="works-servicearea" id='setColor'>
                 <div className="worksicons5">
                   <img src={value4} width={'34px'} height={'34px'} alt="" />
                 </div>
                 <div className="workstext">
-                  <p className="font-outfit font-24 weight-600 color37 margin-b14 lineh-26 d-inline-block ts" >Customer Centric</p>
+                  <p className="font-outfit font-24 weight-600 color37 margin-b14 lineh-26 d-inline-block ts">Customer Centric</p>
                   <p className="font-outfit font-16 weight-400 lineh-26 color38 ts">Our business model is been designed around clients to provide them with both what they want and what the market demands. We are good advisors as well.</p>
                 </div>
               </div>
 
-              <div className="works-servicearea" id='setColor' data-aos="fade-right" data-aos-duration="1400">
+              <div className="works-servicearea" id='setColor'>
                 <div className="worksicons5">
                   <img src={value5} width={'34px'} height={'34px'} alt="" />
                 </div>
