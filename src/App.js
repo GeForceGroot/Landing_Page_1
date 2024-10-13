@@ -14,6 +14,7 @@ import Process from "./components/Process";
 import Footer from "./components/Footer";
 import ProgressBar from './components/ProgressBar';
 import Counter from './components/Counter';
+import Faq from './components/Faq';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -59,6 +60,7 @@ function MainContent() {
         <Counter/>
         <Expertise />
         <Process />
+        <Faq/>
         <Footer />
       </div>
     </div>
