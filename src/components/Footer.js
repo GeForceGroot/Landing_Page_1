@@ -37,7 +37,7 @@ const Footer = () => {
                                 <a href='mailto:info@quickaccounting.com'>
                                     <div className="footer-contact-info" style={{ marginTop: "50px" }}>
                                         <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" alt="Email" className="footer-icon" />
-                                        <a href="mailto:info@cleveraccounting.com" className="footer-contact-link">
+                                        <a href="mailto:Info@quickaccounting.com" className="footer-contact-link">
                                             Info@quickaccounting.com
                                         </a>
                                     </div>
